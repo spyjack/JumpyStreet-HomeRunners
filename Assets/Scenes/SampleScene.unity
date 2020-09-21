@@ -123,6 +123,66 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &473077788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 473077790}
+  - component: {fileID: 473077789}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &473077789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473077788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b551bc74400eeb647b4fd071abb717a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldHeightMax: 30
+  worldWidthMax: 8
+  worldRows: 
+  rowRarities:
+    grassRarity: 10
+    streetRarity: 3
+    roadRarity: 5
+    riverRarity: 7
+    railroadRarity: 8
+    forestRarity: 1
+  groundPrefabs:
+  - {fileID: 150174153664919221, guid: ee1ea6b6b3de7e446b4993216e280775, type: 3}
+  - {fileID: 3731212413694557350, guid: 8fbf9504dd000a647a3966bbeb6fd36a, type: 3}
+  - {fileID: 38009548728273205, guid: ef32043e5a6d28e4bb7f5b2682c6b770, type: 3}
+  - {fileID: 8177297022735406641, guid: 469680ee07ce392469097a81f2ff29d0, type: 3}
+  - {fileID: 150174153664919221, guid: 7cd6cfc0dbb90594486750b99a52add4, type: 3}
+  obstacleTest: {fileID: 8633205800220457658, guid: 9c617026ce9b4bf40b12226f9e622551, type: 3}
+--- !u!4 &473077790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473077788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.70553, y: 1.6177742, z: -3.8285158}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
