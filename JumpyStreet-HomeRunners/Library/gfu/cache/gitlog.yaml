@@ -1,0 +1,3234 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2020-09-21T14:40:43.710-04:00
+  initializedAtString: 2020-09-21T14:30:48.051-04:00
+  log:
+  - commitID: 536a86f9ee8bb2bd03649bca8f7dfc382e4d3978
+    mergeA: 
+    mergeB: 
+    authorName: Micheal Mansfield
+    authorEmail: taylor.mansfield@ymail.com
+    commitEmail: taylor.mansfield@ymail.com
+    commitName: Micheal Mansfield
+    summary: Test
+    description: Test
+    timeString: 2020-09-21T14:37:23.000-04:00
+    commitTimeString: 2020-09-21T14:37:23.000-04:00
+    changes:
+    - path: Assets\Materials.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials.meta
+      projectPath: ..\Assets\Materials.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Grass.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Grass.mat
+      projectPath: ..\Assets\Materials\Grass.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Grass.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Grass.mat.meta
+      projectPath: ..\Assets\Materials\Grass.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Railroad.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Railroad.mat
+      projectPath: ..\Assets\Materials\Railroad.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Railroad.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Railroad.mat.meta
+      projectPath: ..\Assets\Materials\Railroad.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Road.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Road.mat
+      projectPath: ..\Assets\Materials\Road.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Road.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Road.mat.meta
+      projectPath: ..\Assets\Materials\Road.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Street.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Street.mat
+      projectPath: ..\Assets\Materials\Street.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Street.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Street.mat.meta
+      projectPath: ..\Assets\Materials\Street.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Tracks.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Tracks.mat
+      projectPath: ..\Assets\Materials\Tracks.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Tracks.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Tracks.mat.meta
+      projectPath: ..\Assets\Materials\Tracks.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Water.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Water.mat
+      projectPath: ..\Assets\Materials\Water.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Materials\Water.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Water.mat.meta
+      projectPath: ..\Assets\Materials\Water.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models.meta
+      projectPath: ..\Assets\Models.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\aircraft.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\aircraft.FBX
+      projectPath: ..\Assets\Models\aircraft.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\aircraft.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\aircraft.FBX.meta
+      projectPath: ..\Assets\Models\aircraft.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\barrier.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\barrier.FBX
+      projectPath: ..\Assets\Models\barrier.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\barrier.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\barrier.FBX.meta
+      projectPath: ..\Assets\Models\barrier.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\busOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\busOne.FBX
+      projectPath: ..\Assets\Models\busOne.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\busOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\busOne.FBX.meta
+      projectPath: ..\Assets\Models\busOne.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\busTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\busTwo.FBX
+      projectPath: ..\Assets\Models\busTwo.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\busTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\busTwo.FBX.meta
+      projectPath: ..\Assets\Models\busTwo.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carEight.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carEight.FBX
+      projectPath: ..\Assets\Models\carEight.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carEight.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carEight.FBX.meta
+      projectPath: ..\Assets\Models\carEight.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carEleven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carEleven.FBX
+      projectPath: ..\Assets\Models\carEleven.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carEleven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carEleven.FBX.meta
+      projectPath: ..\Assets\Models\carEleven.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carFive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carFive.FBX
+      projectPath: ..\Assets\Models\carFive.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carFive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carFive.FBX.meta
+      projectPath: ..\Assets\Models\carFive.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carFour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carFour.FBX
+      projectPath: ..\Assets\Models\carFour.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carFour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carFour.FBX.meta
+      projectPath: ..\Assets\Models\carFour.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carNine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carNine.FBX
+      projectPath: ..\Assets\Models\carNine.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carNine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carNine.FBX.meta
+      projectPath: ..\Assets\Models\carNine.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carOne.FBX
+      projectPath: ..\Assets\Models\carOne.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carOne.FBX.meta
+      projectPath: ..\Assets\Models\carOne.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carSeven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carSeven.FBX
+      projectPath: ..\Assets\Models\carSeven.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carSeven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carSeven.FBX.meta
+      projectPath: ..\Assets\Models\carSeven.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carSix.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carSix.FBX
+      projectPath: ..\Assets\Models\carSix.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carSix.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carSix.FBX.meta
+      projectPath: ..\Assets\Models\carSix.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carTen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carTen.FBX
+      projectPath: ..\Assets\Models\carTen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carTen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carTen.FBX.meta
+      projectPath: ..\Assets\Models\carTen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carThree.FBX
+      projectPath: ..\Assets\Models\carThree.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carThree.FBX.meta
+      projectPath: ..\Assets\Models\carThree.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carTwo.FBX
+      projectPath: ..\Assets\Models\carTwo.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carTwo.FBX.meta
+      projectPath: ..\Assets\Models\carTwo.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carrot.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carrot.FBX
+      projectPath: ..\Assets\Models\carrot.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\carrot.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carrot.FBX.meta
+      projectPath: ..\Assets\Models\carrot.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterEight.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEight.FBX
+      projectPath: ..\Assets\Models\characterEight.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterEight.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEight.FBX.meta
+      projectPath: ..\Assets\Models\characterEight.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterEighteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEighteen.FBX
+      projectPath: ..\Assets\Models\characterEighteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterEighteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEighteen.FBX.meta
+      projectPath: ..\Assets\Models\characterEighteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterEleven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEleven.FBX
+      projectPath: ..\Assets\Models\characterEleven.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterEleven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEleven.FBX.meta
+      projectPath: ..\Assets\Models\characterEleven.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterFifteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFifteen.FBX
+      projectPath: ..\Assets\Models\characterFifteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterFifteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFifteen.FBX.meta
+      projectPath: ..\Assets\Models\characterFifteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterFive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFive.FBX
+      projectPath: ..\Assets\Models\characterFive.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterFive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFive.FBX.meta
+      projectPath: ..\Assets\Models\characterFive.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterFour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFour.FBX
+      projectPath: ..\Assets\Models\characterFour.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterFour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFour.FBX.meta
+      projectPath: ..\Assets\Models\characterFour.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterFourteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFourteen.FBX
+      projectPath: ..\Assets\Models\characterFourteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterFourteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFourteen.FBX.meta
+      projectPath: ..\Assets\Models\characterFourteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterNine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterNine.FBX
+      projectPath: ..\Assets\Models\characterNine.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterNine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterNine.FBX.meta
+      projectPath: ..\Assets\Models\characterNine.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterNineteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterNineteen.FBX
+      projectPath: ..\Assets\Models\characterNineteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterNineteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterNineteen.FBX.meta
+      projectPath: ..\Assets\Models\characterNineteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterOne.FBX
+      projectPath: ..\Assets\Models\characterOne.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterOne.FBX.meta
+      projectPath: ..\Assets\Models\characterOne.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterSeven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSeven.FBX
+      projectPath: ..\Assets\Models\characterSeven.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterSeven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSeven.FBX.meta
+      projectPath: ..\Assets\Models\characterSeven.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterSeventeen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSeventeen.FBX
+      projectPath: ..\Assets\Models\characterSeventeen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterSeventeen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSeventeen.FBX.meta
+      projectPath: ..\Assets\Models\characterSeventeen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterSix.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSix.FBX
+      projectPath: ..\Assets\Models\characterSix.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterSix.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSix.FBX.meta
+      projectPath: ..\Assets\Models\characterSix.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterSixteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSixteen.FBX
+      projectPath: ..\Assets\Models\characterSixteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterSixteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSixteen.FBX.meta
+      projectPath: ..\Assets\Models\characterSixteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTen.FBX
+      projectPath: ..\Assets\Models\characterTen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTen.FBX.meta
+      projectPath: ..\Assets\Models\characterTen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirteen.FBX
+      projectPath: ..\Assets\Models\characterThirteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirteen.FBX.meta
+      projectPath: ..\Assets\Models\characterThirteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirty.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirty.FBX
+      projectPath: ..\Assets\Models\characterThirty.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirty.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirty.FBX.meta
+      projectPath: ..\Assets\Models\characterThirty.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirtyone.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirtyone.FBX
+      projectPath: ..\Assets\Models\characterThirtyone.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirtyone.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirtyone.FBX.meta
+      projectPath: ..\Assets\Models\characterThirtyone.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThree.FBX
+      projectPath: ..\Assets\Models\characterThree.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThree.FBX.meta
+      projectPath: ..\Assets\Models\characterThree.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwelve.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwelve.FBX
+      projectPath: ..\Assets\Models\characterTwelve.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwelve.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwelve.FBX.meta
+      projectPath: ..\Assets\Models\characterTwelve.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwenty.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwenty.FBX
+      projectPath: ..\Assets\Models\characterTwenty.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwenty.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwenty.FBX.meta
+      projectPath: ..\Assets\Models\characterTwenty.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyOne.FBX
+      projectPath: ..\Assets\Models\characterTwentyOne.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyOne.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyOne.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyThree.FBX
+      projectPath: ..\Assets\Models\characterTwentyThree.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyThree.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyThree.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyeight.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyeight.FBX
+      projectPath: ..\Assets\Models\characterTwentyeight.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyeight.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyeight.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyeight.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyfive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyfive.FBX
+      projectPath: ..\Assets\Models\characterTwentyfive.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyfive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyfive.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyfive.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyfour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyfour.FBX
+      projectPath: ..\Assets\Models\characterTwentyfour.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyfour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyfour.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyfour.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentynine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentynine.FBX
+      projectPath: ..\Assets\Models\characterTwentynine.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentynine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentynine.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentynine.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyseven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyseven.FBX
+      projectPath: ..\Assets\Models\characterTwentyseven.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyseven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyseven.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyseven.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentysix.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentysix.FBX
+      projectPath: ..\Assets\Models\characterTwentysix.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentysix.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentysix.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentysix.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentytwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentytwo.FBX
+      projectPath: ..\Assets\Models\characterTwentytwo.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentytwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentytwo.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentytwo.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwo.FBX
+      projectPath: ..\Assets\Models\characterTwo.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwo.FBX.meta
+      projectPath: ..\Assets\Models\characterTwo.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\chopper.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\chopper.FBX
+      projectPath: ..\Assets\Models\chopper.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\chopper.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\chopper.FBX.meta
+      projectPath: ..\Assets\Models\chopper.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\flower.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\flower.FBX
+      projectPath: ..\Assets\Models\flower.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\flower.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\flower.FBX.meta
+      projectPath: ..\Assets\Models\flower.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\hovercraft.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\hovercraft.FBX
+      projectPath: ..\Assets\Models\hovercraft.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\hovercraft.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\hovercraft.FBX.meta
+      projectPath: ..\Assets\Models\hovercraft.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\landmine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\landmine.FBX
+      projectPath: ..\Assets\Models\landmine.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\landmine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\landmine.FBX.meta
+      projectPath: ..\Assets\Models\landmine.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\logVehicle.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\logVehicle.FBX
+      projectPath: ..\Assets\Models\logVehicle.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\logVehicle.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\logVehicle.FBX.meta
+      projectPath: ..\Assets\Models\logVehicle.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\magicSchoolBus.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\magicSchoolBus.FBX
+      projectPath: ..\Assets\Models\magicSchoolBus.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\magicSchoolBus.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\magicSchoolBus.FBX.meta
+      projectPath: ..\Assets\Models\magicSchoolBus.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\motorcycle.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\motorcycle.FBX
+      projectPath: ..\Assets\Models\motorcycle.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\motorcycle.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\motorcycle.FBX.meta
+      projectPath: ..\Assets\Models\motorcycle.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\mysteryBox.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\mysteryBox.FBX
+      projectPath: ..\Assets\Models\mysteryBox.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\mysteryBox.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\mysteryBox.FBX.meta
+      projectPath: ..\Assets\Models\mysteryBox.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\powerup.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\powerup.FBX
+      projectPath: ..\Assets\Models\powerup.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\powerup.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\powerup.FBX.meta
+      projectPath: ..\Assets\Models\powerup.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\racecar.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\racecar.FBX
+      projectPath: ..\Assets\Models\racecar.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\racecar.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\racecar.FBX.meta
+      projectPath: ..\Assets\Models\racecar.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\saveCrystal.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\saveCrystal.FBX
+      projectPath: ..\Assets\Models\saveCrystal.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\saveCrystal.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\saveCrystal.FBX.meta
+      projectPath: ..\Assets\Models\saveCrystal.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\tank.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\tank.FBX
+      projectPath: ..\Assets\Models\tank.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\tank.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\tank.FBX.meta
+      projectPath: ..\Assets\Models\tank.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeEight.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeEight.FBX
+      projectPath: ..\Assets\Models\treeEight.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeEight.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeEight.FBX.meta
+      projectPath: ..\Assets\Models\treeEight.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeEleven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeEleven.FBX
+      projectPath: ..\Assets\Models\treeEleven.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeEleven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeEleven.FBX.meta
+      projectPath: ..\Assets\Models\treeEleven.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeFifteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFifteen.FBX
+      projectPath: ..\Assets\Models\treeFifteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeFifteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFifteen.FBX.meta
+      projectPath: ..\Assets\Models\treeFifteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeFive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFive.FBX
+      projectPath: ..\Assets\Models\treeFive.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeFive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFive.FBX.meta
+      projectPath: ..\Assets\Models\treeFive.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeFour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFour.FBX
+      projectPath: ..\Assets\Models\treeFour.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeFour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFour.FBX.meta
+      projectPath: ..\Assets\Models\treeFour.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeFourteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFourteen.FBX
+      projectPath: ..\Assets\Models\treeFourteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeFourteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFourteen.FBX.meta
+      projectPath: ..\Assets\Models\treeFourteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeNine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeNine.FBX
+      projectPath: ..\Assets\Models\treeNine.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeNine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeNine.FBX.meta
+      projectPath: ..\Assets\Models\treeNine.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeOne.FBX
+      projectPath: ..\Assets\Models\treeOne.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeOne.FBX.meta
+      projectPath: ..\Assets\Models\treeOne.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeSeven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSeven.FBX
+      projectPath: ..\Assets\Models\treeSeven.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeSeven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSeven.FBX.meta
+      projectPath: ..\Assets\Models\treeSeven.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeSeventeen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSeventeen.FBX
+      projectPath: ..\Assets\Models\treeSeventeen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeSeventeen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSeventeen.FBX.meta
+      projectPath: ..\Assets\Models\treeSeventeen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeSix.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSix.FBX
+      projectPath: ..\Assets\Models\treeSix.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeSix.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSix.FBX.meta
+      projectPath: ..\Assets\Models\treeSix.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeSixteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSixteen.FBX
+      projectPath: ..\Assets\Models\treeSixteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeSixteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSixteen.FBX.meta
+      projectPath: ..\Assets\Models\treeSixteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeTen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTen.FBX
+      projectPath: ..\Assets\Models\treeTen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeTen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTen.FBX.meta
+      projectPath: ..\Assets\Models\treeTen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeThirteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeThirteen.FBX
+      projectPath: ..\Assets\Models\treeThirteen.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeThirteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeThirteen.FBX.meta
+      projectPath: ..\Assets\Models\treeThirteen.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeThree.FBX
+      projectPath: ..\Assets\Models\treeThree.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeThree.FBX.meta
+      projectPath: ..\Assets\Models\treeThree.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeTwelve.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTwelve.FBX
+      projectPath: ..\Assets\Models\treeTwelve.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeTwelve.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTwelve.FBX.meta
+      projectPath: ..\Assets\Models\treeTwelve.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTwo.FBX
+      projectPath: ..\Assets\Models\treeTwo.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\treeTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTwo.FBX.meta
+      projectPath: ..\Assets\Models\treeTwo.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckFive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckFive.FBX
+      projectPath: ..\Assets\Models\truckFive.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckFive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckFive.FBX.meta
+      projectPath: ..\Assets\Models\truckFive.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckFour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckFour.FBX
+      projectPath: ..\Assets\Models\truckFour.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckFour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckFour.FBX.meta
+      projectPath: ..\Assets\Models\truckFour.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckOne.FBX
+      projectPath: ..\Assets\Models\truckOne.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckOne.FBX.meta
+      projectPath: ..\Assets\Models\truckOne.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckThree.FBX
+      projectPath: ..\Assets\Models\truckThree.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckThree.FBX.meta
+      projectPath: ..\Assets\Models\truckThree.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckTwo.FBX
+      projectPath: ..\Assets\Models\truckTwo.FBX
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Models\truckTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckTwo.FBX.meta
+      projectPath: ..\Assets\Models\truckTwo.FBX.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins.meta
+      projectPath: ..\Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub.meta
+      projectPath: ..\Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: ..\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: ..\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: ..\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: ..\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: ..\Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: ..\Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: ..\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: ..\Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs.meta
+      projectPath: ..\Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Grass.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Grass.prefab
+      projectPath: ..\Assets\Prefabs\Grass.prefab
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Grass.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Grass.prefab.meta
+      projectPath: ..\Assets\Prefabs\Grass.prefab.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Railroad.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Railroad.prefab
+      projectPath: ..\Assets\Prefabs\Railroad.prefab
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Railroad.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Railroad.prefab.meta
+      projectPath: ..\Assets\Prefabs\Railroad.prefab.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Road.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Road.prefab
+      projectPath: ..\Assets\Prefabs\Road.prefab
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Road.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Road.prefab.meta
+      projectPath: ..\Assets\Prefabs\Road.prefab.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Street.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Street.prefab
+      projectPath: ..\Assets\Prefabs\Street.prefab
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Street.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Street.prefab.meta
+      projectPath: ..\Assets\Prefabs\Street.prefab.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Water.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Water.prefab
+      projectPath: ..\Assets\Prefabs\Water.prefab
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Water.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Water.prefab.meta
+      projectPath: ..\Assets\Prefabs\Water.prefab.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\treeSixteen.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\treeSixteen.prefab
+      projectPath: ..\Assets\Prefabs\treeSixteen.prefab
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Prefabs\treeSixteen.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\treeSixteen.prefab.meta
+      projectPath: ..\Assets\Prefabs\treeSixteen.prefab.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes.meta
+      projectPath: ..\Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleScene.unity
+      projectPath: ..\Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleScene.unity.meta
+      projectPath: ..\Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleSceneSettings.lighting
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleSceneSettings.lighting
+      projectPath: ..\Assets\Scenes\SampleSceneSettings.lighting
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleSceneSettings.lighting.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleSceneSettings.lighting.meta
+      projectPath: ..\Assets\Scenes\SampleSceneSettings.lighting.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts.meta
+      projectPath: ..\Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\RowRarity.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\RowRarity.cs
+      projectPath: ..\Assets\Scripts\RowRarity.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\RowRarity.cs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\RowRarity.cs.meta
+      projectPath: ..\Assets\Scripts\RowRarity.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\WorldGenerationController.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\WorldGenerationController.cs
+      projectPath: ..\Assets\Scripts\WorldGenerationController.cs
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: Assets\Scripts\WorldGenerationController.cs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\WorldGenerationController.cs.meta
+      projectPath: ..\Assets\Scripts\WorldGenerationController.cs.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+  - commitID: 3dc539eed989d8c0e19e1203b6291ce0f2f7e3c7
+    mergeA: 
+    mergeB: 
+    authorName: Terran
+    authorEmail: terranorion@gmail.com
+    commitEmail: terranorion@gmail.com
+    commitName: Terran
+    summary: asdasd
+    description: asdasd
+    timeString: 2020-09-21T14:20:21.000-04:00
+    commitTimeString: 2020-09-21T14:20:21.000-04:00
+    changes:
+    - path: Assets\Plugins.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins.meta
+      projectPath: ..\Assets\Plugins.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub.meta
+      projectPath: ..\Assets\Plugins\GitHub.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      projectPath: ..\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\ExtensionLoader.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      projectPath: ..\Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      projectPath: ..\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      projectPath: ..\Assets\Plugins\GitHub\Editor\big-logo@2x.png
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\big-logo@2x.png.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\credits.txt
+      projectPath: ..\Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\eula.txt
+      projectPath: ..\Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      projectPath: ..\Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\libsfw.so
+      projectPath: ..\Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      projectPath: ..\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: a92513fa2dcec8666c0fd01d605096758d0af5f4
+    mergeA: 
+    mergeB: 
+    authorName: Terran
+    authorEmail: terranorion@gmail.com
+    commitEmail: terranorion@gmail.com
+    commitName: Terran
+    summary: Added very basic terrain generation
+    description: 
+    timeString: 2020-09-20T22:39:48.000-04:00
+    commitTimeString: 2020-09-20T22:39:48.000-04:00
+    changes:
+    - path: Assets\Materials.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials.meta
+      projectPath: ..\Assets\Materials.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Grass.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Grass.mat
+      projectPath: ..\Assets\Materials\Grass.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Grass.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Grass.mat.meta
+      projectPath: ..\Assets\Materials\Grass.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Railroad.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Railroad.mat
+      projectPath: ..\Assets\Materials\Railroad.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Railroad.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Railroad.mat.meta
+      projectPath: ..\Assets\Materials\Railroad.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Road.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Road.mat
+      projectPath: ..\Assets\Materials\Road.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Road.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Road.mat.meta
+      projectPath: ..\Assets\Materials\Road.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Street.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Street.mat
+      projectPath: ..\Assets\Materials\Street.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Street.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Street.mat.meta
+      projectPath: ..\Assets\Materials\Street.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Tracks.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Tracks.mat
+      projectPath: ..\Assets\Materials\Tracks.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Tracks.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Tracks.mat.meta
+      projectPath: ..\Assets\Materials\Tracks.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Water.mat
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Water.mat
+      projectPath: ..\Assets\Materials\Water.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Materials\Water.mat.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Materials\Water.mat.meta
+      projectPath: ..\Assets\Materials\Water.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs.meta
+      projectPath: ..\Assets\Prefabs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Grass.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Grass.prefab
+      projectPath: ..\Assets\Prefabs\Grass.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Grass.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Grass.prefab.meta
+      projectPath: ..\Assets\Prefabs\Grass.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Railroad.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Railroad.prefab
+      projectPath: ..\Assets\Prefabs\Railroad.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Railroad.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Railroad.prefab.meta
+      projectPath: ..\Assets\Prefabs\Railroad.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Road.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Road.prefab
+      projectPath: ..\Assets\Prefabs\Road.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Road.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Road.prefab.meta
+      projectPath: ..\Assets\Prefabs\Road.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Street.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Street.prefab
+      projectPath: ..\Assets\Prefabs\Street.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Street.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Street.prefab.meta
+      projectPath: ..\Assets\Prefabs\Street.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Water.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Water.prefab
+      projectPath: ..\Assets\Prefabs\Water.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\Water.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\Water.prefab.meta
+      projectPath: ..\Assets\Prefabs\Water.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\treeSixteen.prefab
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\treeSixteen.prefab
+      projectPath: ..\Assets\Prefabs\treeSixteen.prefab
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Prefabs\treeSixteen.prefab.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Prefabs\treeSixteen.prefab.meta
+      projectPath: ..\Assets\Prefabs\treeSixteen.prefab.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleScene.unity
+      projectPath: ..\Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: Assets\Scripts\RowRarity.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\RowRarity.cs
+      projectPath: ..\Assets\Scripts\RowRarity.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\RowRarity.cs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\RowRarity.cs.meta
+      projectPath: ..\Assets\Scripts\RowRarity.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WorldGenerationController.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\WorldGenerationController.cs
+      projectPath: ..\Assets\Scripts\WorldGenerationController.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: cdd29e2c7107520461d025d7253cb4adcfc2ed4d
+    mergeA: 
+    mergeB: 
+    authorName: Terran
+    authorEmail: terranorion@gmail.com
+    commitEmail: terranorion@gmail.com
+    commitName: Terran
+    summary: Added the resources
+    description: 
+    timeString: 2020-09-20T21:11:08.000-04:00
+    commitTimeString: 2020-09-20T21:11:08.000-04:00
+    changes:
+    - path: Assets\Models.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models.meta
+      projectPath: ..\Assets\Models.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\aircraft.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\aircraft.FBX
+      projectPath: ..\Assets\Models\aircraft.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\aircraft.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\aircraft.FBX.meta
+      projectPath: ..\Assets\Models\aircraft.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\barrier.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\barrier.FBX
+      projectPath: ..\Assets\Models\barrier.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\barrier.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\barrier.FBX.meta
+      projectPath: ..\Assets\Models\barrier.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\busOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\busOne.FBX
+      projectPath: ..\Assets\Models\busOne.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\busOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\busOne.FBX.meta
+      projectPath: ..\Assets\Models\busOne.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\busTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\busTwo.FBX
+      projectPath: ..\Assets\Models\busTwo.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\busTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\busTwo.FBX.meta
+      projectPath: ..\Assets\Models\busTwo.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carEight.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carEight.FBX
+      projectPath: ..\Assets\Models\carEight.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carEight.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carEight.FBX.meta
+      projectPath: ..\Assets\Models\carEight.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carEleven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carEleven.FBX
+      projectPath: ..\Assets\Models\carEleven.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carEleven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carEleven.FBX.meta
+      projectPath: ..\Assets\Models\carEleven.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carFive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carFive.FBX
+      projectPath: ..\Assets\Models\carFive.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carFive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carFive.FBX.meta
+      projectPath: ..\Assets\Models\carFive.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carFour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carFour.FBX
+      projectPath: ..\Assets\Models\carFour.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carFour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carFour.FBX.meta
+      projectPath: ..\Assets\Models\carFour.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carNine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carNine.FBX
+      projectPath: ..\Assets\Models\carNine.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carNine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carNine.FBX.meta
+      projectPath: ..\Assets\Models\carNine.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carOne.FBX
+      projectPath: ..\Assets\Models\carOne.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carOne.FBX.meta
+      projectPath: ..\Assets\Models\carOne.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carSeven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carSeven.FBX
+      projectPath: ..\Assets\Models\carSeven.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carSeven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carSeven.FBX.meta
+      projectPath: ..\Assets\Models\carSeven.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carSix.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carSix.FBX
+      projectPath: ..\Assets\Models\carSix.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carSix.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carSix.FBX.meta
+      projectPath: ..\Assets\Models\carSix.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carTen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carTen.FBX
+      projectPath: ..\Assets\Models\carTen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carTen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carTen.FBX.meta
+      projectPath: ..\Assets\Models\carTen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carThree.FBX
+      projectPath: ..\Assets\Models\carThree.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carThree.FBX.meta
+      projectPath: ..\Assets\Models\carThree.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carTwo.FBX
+      projectPath: ..\Assets\Models\carTwo.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carTwo.FBX.meta
+      projectPath: ..\Assets\Models\carTwo.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carrot.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carrot.FBX
+      projectPath: ..\Assets\Models\carrot.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\carrot.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\carrot.FBX.meta
+      projectPath: ..\Assets\Models\carrot.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterEight.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEight.FBX
+      projectPath: ..\Assets\Models\characterEight.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterEight.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEight.FBX.meta
+      projectPath: ..\Assets\Models\characterEight.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterEighteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEighteen.FBX
+      projectPath: ..\Assets\Models\characterEighteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterEighteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEighteen.FBX.meta
+      projectPath: ..\Assets\Models\characterEighteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterEleven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEleven.FBX
+      projectPath: ..\Assets\Models\characterEleven.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterEleven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterEleven.FBX.meta
+      projectPath: ..\Assets\Models\characterEleven.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterFifteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFifteen.FBX
+      projectPath: ..\Assets\Models\characterFifteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterFifteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFifteen.FBX.meta
+      projectPath: ..\Assets\Models\characterFifteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterFive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFive.FBX
+      projectPath: ..\Assets\Models\characterFive.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterFive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFive.FBX.meta
+      projectPath: ..\Assets\Models\characterFive.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterFour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFour.FBX
+      projectPath: ..\Assets\Models\characterFour.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterFour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFour.FBX.meta
+      projectPath: ..\Assets\Models\characterFour.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterFourteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFourteen.FBX
+      projectPath: ..\Assets\Models\characterFourteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterFourteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterFourteen.FBX.meta
+      projectPath: ..\Assets\Models\characterFourteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterNine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterNine.FBX
+      projectPath: ..\Assets\Models\characterNine.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterNine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterNine.FBX.meta
+      projectPath: ..\Assets\Models\characterNine.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterNineteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterNineteen.FBX
+      projectPath: ..\Assets\Models\characterNineteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterNineteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterNineteen.FBX.meta
+      projectPath: ..\Assets\Models\characterNineteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterOne.FBX
+      projectPath: ..\Assets\Models\characterOne.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterOne.FBX.meta
+      projectPath: ..\Assets\Models\characterOne.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterSeven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSeven.FBX
+      projectPath: ..\Assets\Models\characterSeven.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterSeven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSeven.FBX.meta
+      projectPath: ..\Assets\Models\characterSeven.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterSeventeen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSeventeen.FBX
+      projectPath: ..\Assets\Models\characterSeventeen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterSeventeen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSeventeen.FBX.meta
+      projectPath: ..\Assets\Models\characterSeventeen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterSix.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSix.FBX
+      projectPath: ..\Assets\Models\characterSix.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterSix.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSix.FBX.meta
+      projectPath: ..\Assets\Models\characterSix.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterSixteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSixteen.FBX
+      projectPath: ..\Assets\Models\characterSixteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterSixteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterSixteen.FBX.meta
+      projectPath: ..\Assets\Models\characterSixteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTen.FBX
+      projectPath: ..\Assets\Models\characterTen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTen.FBX.meta
+      projectPath: ..\Assets\Models\characterTen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirteen.FBX
+      projectPath: ..\Assets\Models\characterThirteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirteen.FBX.meta
+      projectPath: ..\Assets\Models\characterThirteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirty.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirty.FBX
+      projectPath: ..\Assets\Models\characterThirty.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirty.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirty.FBX.meta
+      projectPath: ..\Assets\Models\characterThirty.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirtyone.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirtyone.FBX
+      projectPath: ..\Assets\Models\characterThirtyone.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterThirtyone.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThirtyone.FBX.meta
+      projectPath: ..\Assets\Models\characterThirtyone.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThree.FBX
+      projectPath: ..\Assets\Models\characterThree.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterThree.FBX.meta
+      projectPath: ..\Assets\Models\characterThree.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwelve.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwelve.FBX
+      projectPath: ..\Assets\Models\characterTwelve.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwelve.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwelve.FBX.meta
+      projectPath: ..\Assets\Models\characterTwelve.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwenty.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwenty.FBX
+      projectPath: ..\Assets\Models\characterTwenty.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwenty.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwenty.FBX.meta
+      projectPath: ..\Assets\Models\characterTwenty.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyOne.FBX
+      projectPath: ..\Assets\Models\characterTwentyOne.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyOne.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyOne.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyThree.FBX
+      projectPath: ..\Assets\Models\characterTwentyThree.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyThree.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyThree.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyeight.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyeight.FBX
+      projectPath: ..\Assets\Models\characterTwentyeight.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyeight.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyeight.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyeight.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyfive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyfive.FBX
+      projectPath: ..\Assets\Models\characterTwentyfive.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyfive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyfive.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyfive.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyfour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyfour.FBX
+      projectPath: ..\Assets\Models\characterTwentyfour.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyfour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyfour.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyfour.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentynine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentynine.FBX
+      projectPath: ..\Assets\Models\characterTwentynine.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentynine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentynine.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentynine.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyseven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyseven.FBX
+      projectPath: ..\Assets\Models\characterTwentyseven.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentyseven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentyseven.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentyseven.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentysix.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentysix.FBX
+      projectPath: ..\Assets\Models\characterTwentysix.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentysix.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentysix.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentysix.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentytwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentytwo.FBX
+      projectPath: ..\Assets\Models\characterTwentytwo.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwentytwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwentytwo.FBX.meta
+      projectPath: ..\Assets\Models\characterTwentytwo.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwo.FBX
+      projectPath: ..\Assets\Models\characterTwo.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\characterTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\characterTwo.FBX.meta
+      projectPath: ..\Assets\Models\characterTwo.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\chopper.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\chopper.FBX
+      projectPath: ..\Assets\Models\chopper.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\chopper.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\chopper.FBX.meta
+      projectPath: ..\Assets\Models\chopper.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\flower.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\flower.FBX
+      projectPath: ..\Assets\Models\flower.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\flower.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\flower.FBX.meta
+      projectPath: ..\Assets\Models\flower.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\hovercraft.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\hovercraft.FBX
+      projectPath: ..\Assets\Models\hovercraft.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\hovercraft.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\hovercraft.FBX.meta
+      projectPath: ..\Assets\Models\hovercraft.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\landmine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\landmine.FBX
+      projectPath: ..\Assets\Models\landmine.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\landmine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\landmine.FBX.meta
+      projectPath: ..\Assets\Models\landmine.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\logVehicle.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\logVehicle.FBX
+      projectPath: ..\Assets\Models\logVehicle.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\logVehicle.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\logVehicle.FBX.meta
+      projectPath: ..\Assets\Models\logVehicle.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\magicSchoolBus.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\magicSchoolBus.FBX
+      projectPath: ..\Assets\Models\magicSchoolBus.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\magicSchoolBus.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\magicSchoolBus.FBX.meta
+      projectPath: ..\Assets\Models\magicSchoolBus.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\motorcycle.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\motorcycle.FBX
+      projectPath: ..\Assets\Models\motorcycle.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\motorcycle.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\motorcycle.FBX.meta
+      projectPath: ..\Assets\Models\motorcycle.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\mysteryBox.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\mysteryBox.FBX
+      projectPath: ..\Assets\Models\mysteryBox.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\mysteryBox.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\mysteryBox.FBX.meta
+      projectPath: ..\Assets\Models\mysteryBox.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\powerup.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\powerup.FBX
+      projectPath: ..\Assets\Models\powerup.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\powerup.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\powerup.FBX.meta
+      projectPath: ..\Assets\Models\powerup.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\racecar.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\racecar.FBX
+      projectPath: ..\Assets\Models\racecar.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\racecar.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\racecar.FBX.meta
+      projectPath: ..\Assets\Models\racecar.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\saveCrystal.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\saveCrystal.FBX
+      projectPath: ..\Assets\Models\saveCrystal.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\saveCrystal.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\saveCrystal.FBX.meta
+      projectPath: ..\Assets\Models\saveCrystal.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\tank.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\tank.FBX
+      projectPath: ..\Assets\Models\tank.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\tank.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\tank.FBX.meta
+      projectPath: ..\Assets\Models\tank.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeEight.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeEight.FBX
+      projectPath: ..\Assets\Models\treeEight.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeEight.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeEight.FBX.meta
+      projectPath: ..\Assets\Models\treeEight.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeEleven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeEleven.FBX
+      projectPath: ..\Assets\Models\treeEleven.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeEleven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeEleven.FBX.meta
+      projectPath: ..\Assets\Models\treeEleven.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeFifteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFifteen.FBX
+      projectPath: ..\Assets\Models\treeFifteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeFifteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFifteen.FBX.meta
+      projectPath: ..\Assets\Models\treeFifteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeFive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFive.FBX
+      projectPath: ..\Assets\Models\treeFive.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeFive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFive.FBX.meta
+      projectPath: ..\Assets\Models\treeFive.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeFour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFour.FBX
+      projectPath: ..\Assets\Models\treeFour.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeFour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFour.FBX.meta
+      projectPath: ..\Assets\Models\treeFour.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeFourteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFourteen.FBX
+      projectPath: ..\Assets\Models\treeFourteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeFourteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeFourteen.FBX.meta
+      projectPath: ..\Assets\Models\treeFourteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeNine.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeNine.FBX
+      projectPath: ..\Assets\Models\treeNine.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeNine.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeNine.FBX.meta
+      projectPath: ..\Assets\Models\treeNine.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeOne.FBX
+      projectPath: ..\Assets\Models\treeOne.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeOne.FBX.meta
+      projectPath: ..\Assets\Models\treeOne.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeSeven.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSeven.FBX
+      projectPath: ..\Assets\Models\treeSeven.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeSeven.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSeven.FBX.meta
+      projectPath: ..\Assets\Models\treeSeven.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeSeventeen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSeventeen.FBX
+      projectPath: ..\Assets\Models\treeSeventeen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeSeventeen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSeventeen.FBX.meta
+      projectPath: ..\Assets\Models\treeSeventeen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeSix.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSix.FBX
+      projectPath: ..\Assets\Models\treeSix.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeSix.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSix.FBX.meta
+      projectPath: ..\Assets\Models\treeSix.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeSixteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSixteen.FBX
+      projectPath: ..\Assets\Models\treeSixteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeSixteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeSixteen.FBX.meta
+      projectPath: ..\Assets\Models\treeSixteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeTen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTen.FBX
+      projectPath: ..\Assets\Models\treeTen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeTen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTen.FBX.meta
+      projectPath: ..\Assets\Models\treeTen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeThirteen.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeThirteen.FBX
+      projectPath: ..\Assets\Models\treeThirteen.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeThirteen.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeThirteen.FBX.meta
+      projectPath: ..\Assets\Models\treeThirteen.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeThree.FBX
+      projectPath: ..\Assets\Models\treeThree.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeThree.FBX.meta
+      projectPath: ..\Assets\Models\treeThree.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeTwelve.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTwelve.FBX
+      projectPath: ..\Assets\Models\treeTwelve.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeTwelve.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTwelve.FBX.meta
+      projectPath: ..\Assets\Models\treeTwelve.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTwo.FBX
+      projectPath: ..\Assets\Models\treeTwo.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\treeTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\treeTwo.FBX.meta
+      projectPath: ..\Assets\Models\treeTwo.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckFive.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckFive.FBX
+      projectPath: ..\Assets\Models\truckFive.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckFive.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckFive.FBX.meta
+      projectPath: ..\Assets\Models\truckFive.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckFour.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckFour.FBX
+      projectPath: ..\Assets\Models\truckFour.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckFour.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckFour.FBX.meta
+      projectPath: ..\Assets\Models\truckFour.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckOne.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckOne.FBX
+      projectPath: ..\Assets\Models\truckOne.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckOne.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckOne.FBX.meta
+      projectPath: ..\Assets\Models\truckOne.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckThree.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckThree.FBX
+      projectPath: ..\Assets\Models\truckThree.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckThree.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckThree.FBX.meta
+      projectPath: ..\Assets\Models\truckThree.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckTwo.FBX
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckTwo.FBX
+      projectPath: ..\Assets\Models\truckTwo.FBX
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Models\truckTwo.FBX.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Models\truckTwo.FBX.meta
+      projectPath: ..\Assets\Models\truckTwo.FBX.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes.meta
+      projectPath: ..\Assets\Scenes.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleScene.unity
+      projectPath: ..\Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleScene.unity.meta
+      projectPath: ..\Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleSceneSettings.lighting
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleSceneSettings.lighting
+      projectPath: ..\Assets\Scenes\SampleSceneSettings.lighting
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scenes\SampleSceneSettings.lighting.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scenes\SampleSceneSettings.lighting.meta
+      projectPath: ..\Assets\Scenes\SampleSceneSettings.lighting.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts.meta
+      projectPath: ..\Assets\Scripts.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WorldGenerationController.cs
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\WorldGenerationController.cs
+      projectPath: ..\Assets\Scripts\WorldGenerationController.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Assets\Scripts\WorldGenerationController.cs.meta
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Assets\Scripts\WorldGenerationController.cs.meta
+      projectPath: ..\Assets\Scripts\WorldGenerationController.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\manifest.json
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Packages\manifest.json
+      projectPath: ..\Packages\manifest.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: Packages\packages-lock.json
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\Packages\packages-lock.json
+      projectPath: ..\Packages\packages-lock.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\AudioManager.asset
+      projectPath: ..\ProjectSettings\AudioManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\ClusterInputManager.asset
+      projectPath: ..\ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\DynamicsManager.asset
+      projectPath: ..\ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\EditorBuildSettings.asset
+      projectPath: ..\ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\EditorSettings.asset
+      projectPath: ..\ProjectSettings\EditorSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\GraphicsSettings.asset
+      projectPath: ..\ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\InputManager.asset
+      projectPath: ..\ProjectSettings\InputManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\NavMeshAreas.asset
+      projectPath: ..\ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\Physics2DSettings.asset
+      projectPath: ..\ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\PresetManager.asset
+      projectPath: ..\ProjectSettings\PresetManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\ProjectSettings.asset
+      projectPath: ..\ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\ProjectVersion.txt
+      projectPath: ..\ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\QualitySettings.asset
+      projectPath: ..\ProjectSettings\QualitySettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\TagManager.asset
+      projectPath: ..\ProjectSettings\TagManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\TimeManager.asset
+      projectPath: ..\ProjectSettings\TimeManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\UnityConnectSettings.asset
+      projectPath: ..\ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VFXManager.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\VFXManager.asset
+      projectPath: ..\ProjectSettings\VFXManager.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\VersionControlSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\VersionControlSettings.asset
+      projectPath: ..\ProjectSettings\VersionControlSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: ProjectSettings\XRSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\ProjectSettings\XRSettings.asset
+      projectPath: ..\ProjectSettings\XRSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\UserSettings\EditorUserSettings.asset
+      projectPath: ..\UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+  - commitID: 29713ae02a39964871fc9afc779206f261998f75
+    mergeA: 
+    mergeB: 
+    authorName: Terran
+    authorEmail: terranorion@gmail.com
+    commitEmail: terranorion@gmail.com
+    commitName: Terran
+    summary: Initial commit
+    description: 
+    timeString: 2020-09-14T14:26:02.000-04:00
+    commitTimeString: 2020-09-14T14:26:02.000-04:00
+    changes:
+    - path: .gitattributes
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\.gitattributes
+      projectPath: ..\.gitattributes
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: .gitignore
+      fullPath: C:\Users\Taylo\Desktop\JumpyStreet-HomeRunners\.gitignore
+      projectPath: ..\.gitignore
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
