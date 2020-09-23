@@ -15,6 +15,8 @@ public class RowRarity
     [SerializeField]
     public float riverRarity;
     [SerializeField]
+    public float lilypadRarity;
+    [SerializeField]
     public float railroadRarity;
     [SerializeField]
     public float forestRarity;
@@ -33,7 +35,13 @@ public class RowRarity
         }
         else if (_rarity > roadRarity && _rarity <= riverRarity)
         {
-            return RowType.river;
+            if (Random.Range(0f,100f) > lilypadRarity)
+            {
+                return RowType.river;
+            }else
+            {
+                return RowType.riverPads;
+            }
         }
         else if (_rarity > riverRarity && _rarity <= railroadRarity)
         {
@@ -51,5 +59,6 @@ public enum RowType
     river,
     railroad,
     grass,
-    forest
+    forest,
+    riverPads
 }
