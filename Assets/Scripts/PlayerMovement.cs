@@ -4,42 +4,51 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private bool isMoving;
-    private Vector3 origPos, targetPos;
-    private float timeToMove = 0.2f;
+    [SerializeField] private WorldGenerationController worldGenerator;
 
-    // Update is called once per frame
-    void Update()
+    private Animator animator;
+
+    private bool isHopping;
+
+    private void Start()
     {
-        if(Input.GetKeyDown(KeyCode.A) && !isMoving)
-        {
-            StartCoroutine(MovePlayer(Vector3.left));
-        }
+        animator = GetComponent<Animator>();
+    }
 
-        if(Input.GetKeyDown(KeyCode.D) && !isMoving)
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.W) && !isHopping)
         {
-            StartCoroutine(MovePlayer(Vector3.right));
+
+            float zDifference = 0;
+
+            if(transform.position.z % 1 != 0)
+            {
+                zDifference = Mathf.Round(transform.position.z) - transform.position.z;
+            }
+            MoveCharacter(new Vector3(1, 0, zDifference));
+        }
+        else if(Input.GetKeyDown(KeyCode.A) && !isHopping)
+        {
+
+            MoveCharacter(new Vector3(0, 0, 1));
+        }
+        else if (Input.GetKeyDown(KeyCode.D) && !isHopping)
+        {
+
+            MoveCharacter(new Vector3(0, 0, -1));
         }
     }
 
-    private IEnumerator MovePlayer(Vector3 direction)
+    private void MoveCharacter(Vector3 difference)
     {
-        isMoving = true;
+        animator.SetTrigger("hop");
+        isHopping = true;
+        transform.position = (transform.position + difference);
+    }
 
-        float elapsedTime = 0;
-
-        origPos = transform.position;
-        targetPos = origPos + direction / 2f;
-
-        while(elapsedTime < timeToMove)
-        {
-            transform.position = Vector3.Lerp(origPos, targetPos, (elapsedTime / timeToMove));
-            elapsedTime += Time.deltaTime;
-            yield return null;
-        }
-
-        transform.position = targetPos;
-
-        isMoving = false;
+    public void FinishHop()
+    {
+        isHopping = false;
     }
 }
