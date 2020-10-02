@@ -8,6 +8,8 @@ TagManager:
   - PlatformTemporary
   - ObstacleBlocking
   - ObstacleMoving
+  - Terrain
+  - Water
   layers:
   - Default
   - TransparentFX

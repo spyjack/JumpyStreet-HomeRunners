@@ -19,24 +19,27 @@ public class PlayerMovement : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.W) && !isHopping)
         {
+            animator.SetTrigger("hop");
+            isHopping = true;
 
-            float zDifference = 0;
+            worldGenerator.PullWorld(new Vector3(0, 0, -1));
+            /*float zDifference = 0;
 
             if(transform.position.z % 1 != 0)
             {
                 zDifference = Mathf.Round(transform.position.z) - transform.position.z;
             }
-            MoveCharacter(new Vector3(1, 0, zDifference));
+            MoveCharacter(new Vector3(1, 0, zDifference));*/
         }
         else if(Input.GetKeyDown(KeyCode.A) && !isHopping)
         {
-
-            MoveCharacter(new Vector3(0, 0, 1));
+            //WOrld moves on Z axis, player should move on X axis for side to side.
+            MoveCharacter(new Vector3(-1, 0, 0));
         }
         else if (Input.GetKeyDown(KeyCode.D) && !isHopping)
         {
-
-            MoveCharacter(new Vector3(0, 0, -1));
+            //WOrld moves on Z axis, player should move on X axis for side to side.
+            MoveCharacter(new Vector3(1, 0, 0));
         }
     }
 

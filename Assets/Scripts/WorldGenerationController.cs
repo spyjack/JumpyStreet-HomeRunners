@@ -58,6 +58,7 @@ public class WorldGenerationController : MonoBehaviour
         {
             InitializeWorld(guaranteedPaths);
         }
+        PullWorld(new Vector3(0, 0, -40));
         //StartCoroutine(GenerateTimer());
     }
 
@@ -68,10 +69,10 @@ public class WorldGenerationController : MonoBehaviour
         {
             InitializeWorld(guaranteedPaths);
         }
-        if(Input.GetAxis("Vertical") > 0)
+        /*if(Input.GetAxis("Vertical") > 0)
         {
             PullWorld(new Vector3(0, 0, -1));
-        }
+        }*/
     }
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
