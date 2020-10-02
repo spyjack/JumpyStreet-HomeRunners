@@ -49,7 +49,21 @@ public class WorldGenerationController : MonoBehaviour
     [SerializeField]
     private Transform pathMarker = null;
 
+    [SerializeField]
+    private Transform spawnPoint = null;
+
     private int chunkIndex = 0;
+
+    public Transform GetSpawnPoint
+    {
+        get {
+            if(spawnPoint==null)
+            {
+                Debug.LogError("Spawnpoint is null!");
+            }
+            return spawnPoint;
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -58,7 +72,7 @@ public class WorldGenerationController : MonoBehaviour
         {
             InitializeWorld(guaranteedPaths);
         }
-        PullWorld(new Vector3(0, 0, -40));
+        PullWorld(new Vector3(0, 0, -worldHeightMax));
         //StartCoroutine(GenerateTimer());
     }
 
@@ -89,6 +103,7 @@ public class WorldGenerationController : MonoBehaviour
         }
     }
 
+    //Physically generates the world based on the 2 arrays, the terrain array and the obstacles array.
     void InitializeWorld(int _paths)
     {
         worldRows = new RowType[worldHeightMax];
@@ -104,8 +119,10 @@ public class WorldGenerationController : MonoBehaviour
         Transform chunk = CreateChunk();
         PopulateRows(chunk);
         chunk.position = new Vector3(chunk.position.x, chunk.position.y, GetChunkZ(chunk));
+        SetSpawnPoint(chunk);
     }
 
+    //Fills out the row and obstacle arrays, doesn't generate anything in the scene.
     void GenerateRows()
     {
         worldRows[0] = RowType.grass;
@@ -129,6 +146,7 @@ public class WorldGenerationController : MonoBehaviour
         }
     }
 
+    //Physically creates the terrain and the obstacles based on the arrays.
     void PopulateRows(Transform _chunk)
     {
         for (int r = 0; r < worldRows.Length; r++)
@@ -163,6 +181,7 @@ public class WorldGenerationController : MonoBehaviour
         }
     }
 
+    //Creates "drunken walkers" that stumble through the obstacle grid array, and clear any objects they cross so a path is guaranteed.
     void CreatePath(int _vChance, int _gridX, int _gridY)
     {
         print("Walker starting at: " + _gridX + ", " + _gridY);
@@ -192,6 +211,7 @@ public class WorldGenerationController : MonoBehaviour
         }
     }
 
+    //Thisi s what actually clears the objects in the obstacle array grid.
     void ClearObstacle(int _x, int _y)
     {
         //print("Replacing obstacle found at " + __x + ", " + _y);
@@ -205,6 +225,18 @@ public class WorldGenerationController : MonoBehaviour
         }
     }
 
+    //Initializes the spawnpoint.
+    void SetSpawnPoint(Transform spawnTransform)
+    {
+        if (spawnPoint == null)
+        {
+            spawnPoint = new GameObject("SpawnPoint").transform;
+            spawnPoint.position = new Vector3(spawnTransform.position.x - 0.5f, spawnTransform.position.y + 0.75f, spawnTransform.position.z-worldHeightMax);
+            focusTransform = spawnPoint;
+        }
+    }
+
+    //Creates a new terrain chunk so it can be used.
     Transform CreateChunk()
     {
         GameObject newChunk;
@@ -228,6 +260,7 @@ public class WorldGenerationController : MonoBehaviour
         return newChunk.transform;
     }
 
+    //Gets the Z position of a chunk.
     float GetChunkZ(Transform _chunk)
     {
         float zPos = 0;
@@ -242,6 +275,7 @@ public class WorldGenerationController : MonoBehaviour
         return zPos;
     }
 
+    //Returns a prefab based on the corresponding RowType.
     Transform GetGroundObject(RowType _rowType)
     {
         switch(_rowType)

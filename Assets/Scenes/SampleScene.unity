@@ -218,7 +218,7 @@ MonoBehaviour:
   guaranteedPaths: 2
   maxChunks: 3
   worldChunks: []
-  clearDistance: 24
+  clearDistance: 29
   focusTransform: {fileID: 0}
   worldRows: 
   rowRarities:
@@ -243,6 +243,7 @@ MonoBehaviour:
   - {fileID: 3113667701738979090, guid: ac28437378fcc884492c6c73cc56f413, type: 3}
   vehiclePrefabs: []
   pathMarker: {fileID: 0}
+  spawnPoint: {fileID: 0}
 --- !u!4 &473077790
 Transform:
   m_ObjectHideFlags: 0
