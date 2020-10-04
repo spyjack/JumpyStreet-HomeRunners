@@ -54,6 +54,8 @@ public class WorldGenerationController : MonoBehaviour
 
     private int chunkIndex = 0;
 
+    private FlowingRowHandler prevRowFlowHandler = null;
+
     public Transform GetSpawnPoint
     {
         get {
@@ -64,6 +66,8 @@ public class WorldGenerationController : MonoBehaviour
             return spawnPoint;
         }
     }
+
+    public bool debugMode = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -73,20 +77,24 @@ public class WorldGenerationController : MonoBehaviour
             InitializeWorld(guaranteedPaths);
         }
         PullWorld(new Vector3(0, 0, -worldHeightMax));
-        //StartCoroutine(GenerateTimer());
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.Space) && debugMode)
         {
             InitializeWorld(guaranteedPaths);
         }
-        /*if(Input.GetAxis("Vertical") > 0)
+        if(Input.GetAxis("Vertical") > 0 && debugMode)
         {
-            PullWorld(new Vector3(0, 0, -1));
-        }*/
+            PullWorld(new Vector3(0, 0, -0.25f));
+        }
+        if(Input.GetKeyDown(KeyCode.L) && debugMode)
+        {
+            StopAllCoroutines();
+            StartCoroutine(GenerateTimer());
+        }
     }
 
     /////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -163,20 +171,99 @@ public class WorldGenerationController : MonoBehaviour
                 }else if(worldRows[r] == RowType.riverPads && obstacleGrid[r, c] == 1)
                 {
                     Instantiate(waterPrefabs[0], new Vector3(c - (float)worldWidthMax / 2 + 0.5f, 0.25f, r), Quaternion.identity, _chunk);
-                }else if (worldRows[r] == RowType.river)
-                {
-                    //Determine river direction
-                    //Configure logs to spawn
                 }
-                else if (worldRows[r] == RowType.road || worldRows[r] == RowType.street)
+            }
+
+            if (worldRows[r] == RowType.river)
+            {
+                //Determine river direction
+                //Configure logs to spawn
+                FlowingRowHandler newFlowingRow = Instantiate(waterPrefabs[1], _chunk.position, Quaternion.identity, _chunk).GetComponent<FlowingRowHandler>();
+                newFlowingRow.name = newFlowingRow.name + "_inst_" + r;
+                newFlowingRow.transform.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 1, _chunk.position.y, _chunk.position.z + r);
+
+                int riverDir = Random.Range(0, 2);
+                if (worldRows[Mathf.Max(0, r - 1)] == RowType.river && prevRowFlowHandler != null)
                 {
-                    //configure road direction
-                    //configure road intensity
+                    riverDir = prevRowFlowHandler.Direction;
                 }
-                else if (worldRows[r] == RowType.railroad)
+                Transform leftBounds = new GameObject("Left Boundry").transform;
+                leftBounds.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 1, _chunk.position.y, _chunk.position.z + r);
+                Transform rightBounds = new GameObject("Right Boundry").transform;
+                rightBounds.position = new Vector3(_chunk.position.x - (float)worldWidthMax / 2 - 1, _chunk.position.y, _chunk.position.z + r);
+
+                rightBounds.parent = newFlowingRow.transform; leftBounds.parent = newFlowingRow.transform;
+
+                newFlowingRow.Configure(
+                    leftBounds,
+                    rightBounds,
+                    1f, 6f,
+                    Random.Range(2, 5),
+                    Random.Range(3, 6),
+                    riverDir
+                    );
+
+                newFlowingRow.Run();
+                prevRowFlowHandler = newFlowingRow;
+            }
+            else if (worldRows[r] == RowType.road || worldRows[r] == RowType.street)
+            {
+                //configure road direction
+                //configure road intensity
+                FlowingRowHandler newFlowingRow = Instantiate(vehiclePrefabs[0], _chunk.position, Quaternion.identity, _chunk).GetComponent<FlowingRowHandler>();
+                newFlowingRow.name = newFlowingRow.name + "_inst_" + r;
+                newFlowingRow.transform.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 1, _chunk.position.y, _chunk.position.z + r);
+
+                int roadDir = Random.Range(0, 2);
+                if ((worldRows[Mathf.Max(0, r - 1)] == RowType.road) && prevRowFlowHandler != null)
                 {
-                    //configure direction and intensity
+                    roadDir = prevRowFlowHandler.Direction;
                 }
+                Transform leftBounds = new GameObject("Left Boundry").transform;
+                leftBounds.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 1, _chunk.position.y+0.65f, _chunk.position.z + r);
+                Transform rightBounds = new GameObject("Right Boundry").transform;
+                rightBounds.position = new Vector3(_chunk.position.x - (float)worldWidthMax / 2 - 1, _chunk.position.y+0.65f, _chunk.position.z + r);
+
+                rightBounds.parent = newFlowingRow.transform; leftBounds.parent = newFlowingRow.transform;
+
+                newFlowingRow.Configure(
+                    leftBounds,
+                    rightBounds,
+                    1f, 4f,
+                    Random.Range(2, 10),
+                    Random.Range(3, 6),
+                    roadDir
+                    );
+
+                newFlowingRow.Run();
+                prevRowFlowHandler = newFlowingRow;
+            }
+            else if (worldRows[r] == RowType.railroad)
+            {
+                //configure direction and intensity
+                FlowingRowHandler newFlowingRow = Instantiate(vehiclePrefabs[1], _chunk.position, Quaternion.identity, _chunk).GetComponent<FlowingRowHandler>();
+                newFlowingRow.name = newFlowingRow.name + "_inst_" + r;
+                newFlowingRow.transform.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 1, _chunk.position.y, _chunk.position.z + r);
+
+                Transform leftBounds = new GameObject("Left Boundry").transform;
+                leftBounds.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 12, _chunk.position.y + 0.65f, _chunk.position.z + r);
+                Transform rightBounds = new GameObject("Right Boundry").transform;
+                rightBounds.position = new Vector3(_chunk.position.x - (float)worldWidthMax / 2 - 12, _chunk.position.y + 0.65f, _chunk.position.z + r);
+
+                rightBounds.parent = newFlowingRow.transform; leftBounds.parent = newFlowingRow.transform;
+
+                newFlowingRow.Configure(
+                    leftBounds,
+                    rightBounds,
+                    6f, 10f,
+                    6f, 14f,
+                    Random.Range(3, 6),
+                    true,
+                    Random.Range(0,2)
+                    );
+
+                newFlowingRow.Run();
+                prevRowFlowHandler = newFlowingRow;
             }
         }
     }
