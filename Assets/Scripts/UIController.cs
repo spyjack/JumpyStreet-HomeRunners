@@ -8,6 +8,7 @@ public class UIController : MonoBehaviour
 {
     public GameObject helpMenu;
     public GameObject creditsMenu;
+    public GameObject puaseMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,7 +18,10 @@ public class UIController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            PauseGame();
+        }
     }
     public void OnStartButtonClick()
         {
@@ -43,6 +47,19 @@ public class UIController : MonoBehaviour
     {
         print("Quitting");
         Application.Quit();
+    }
+    void PauseGame()
+    {
+        puaseMenu.SetActive(true);
+        Time.timeScale = 0f;
+        
+    }
+    public void onResumeButtonClick()
+    {
+
+        puaseMenu.SetActive(false);
+        Time.timeScale = 1f;
+        
     }
 
 
