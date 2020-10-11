@@ -20,22 +20,21 @@ public class ScoreController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Checking and increasing score
-        if(Input.GetKeyDown(KeyCode.W))
-        {
-            score++;
-        }
-        if (score > highScoreNumber)
-        {
-            WriteHighScore();
-        }
-        
         
     }
 
-    void WriteHighScore()
+    public void UpdateScore()
     {
-        StreamWriter Writer = new StreamWriter(scoreText, true);
-        Writer.WriteLine(score);
+        // Increasing Score 
+        score++;
+        // Check High Score
+        if (score > highScoreNumber)
+        {
+            
+            StreamWriter Writer = new StreamWriter(scoreText, true);
+            Writer.WriteLine(score);
+
+        }
+        
     }
 }
