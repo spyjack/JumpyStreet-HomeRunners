@@ -10,6 +10,10 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isHopping;
 
+    [SerializeField]
+    float hopDelay = 0;
+    float hopTimer = 0;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -17,19 +21,24 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        if(isHopping)
+        {
+            if (hopTimer < hopDelay)
+            {
+                hopTimer += Time.deltaTime;
+            }else
+            {
+                isHopping = false;
+                hopTimer = 0;
+            }
+        }
+
         if(Input.GetKeyDown(KeyCode.W) && !isHopping)
         {
             animator.SetTrigger("hop");
             isHopping = true;
 
             worldGenerator.PullWorld(new Vector3(0, 0, -1));
-            /*float zDifference = 0;
-
-            if(transform.position.z % 1 != 0)
-            {
-                zDifference = Mathf.Round(transform.position.z) - transform.position.z;
-            }
-            MoveCharacter(new Vector3(1, 0, zDifference));*/
         }
         else if(Input.GetKeyDown(KeyCode.A) && !isHopping)
         {
