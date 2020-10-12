@@ -14,9 +14,13 @@ public class PlayerMovement : MonoBehaviour
     float hopDelay = 0;
     float hopTimer = 0;
 
+    public AudioClip hop;
+    AudioSource audioSource;
+
     private void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -36,18 +40,25 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.W) && !isHopping)
         {
             animator.SetTrigger("hop");
+            audioSource.PlayOneShot(hop, 0.5f);
             isHopping = true;
 
             worldGenerator.PullWorld(new Vector3(0, 0, -1));
         }
         else if(Input.GetKeyDown(KeyCode.A) && !isHopping)
         {
-            //WOrld moves on Z axis, player should move on X axis for side to side.
+            //World moves on Z axis, player should move on X axis for side to side.
+            animator.SetTrigger("hop");
+            audioSource.PlayOneShot(hop, 0.5f);
+            isHopping = true;
             MoveCharacter(new Vector3(-1, 0, 0));
         }
         else if (Input.GetKeyDown(KeyCode.D) && !isHopping)
         {
-            //WOrld moves on Z axis, player should move on X axis for side to side.
+            //World moves on Z axis, player should move on X axis for side to side.
+            animator.SetTrigger("hop");
+            audioSource.PlayOneShot(hop, 0.5f);
+            isHopping = true;
             MoveCharacter(new Vector3(1, 0, 0));
         }
     }
