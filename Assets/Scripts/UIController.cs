@@ -8,13 +8,16 @@ public class UIController : MonoBehaviour
 {
     public GameObject helpMenu;
     public GameObject creditsMenu;
-    public GameObject puaseMenu;
+    public GameObject pauseMenu;
     public GameObject settingsMenu;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        helpMenu.SetActive(false);
+        creditsMenu.SetActive(false);
+        settingsMenu.SetActive(false);
+        pauseMenu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -66,13 +69,13 @@ public class UIController : MonoBehaviour
 
     void PauseGame()
     {
-        puaseMenu.SetActive(true);
+        pauseMenu.SetActive(true);
         Time.timeScale = 0f;    
     }
 
     public void onResumeButtonClick()
     {
-        puaseMenu.SetActive(false);
+        pauseMenu.SetActive(false);
         Time.timeScale = 1f;        
     }
 
