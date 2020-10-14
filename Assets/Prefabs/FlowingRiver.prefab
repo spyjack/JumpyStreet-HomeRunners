@@ -96,6 +96,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   assetsToSpawn:
   - {fileID: 8341523908714436422, guid: 3d2bba129ebbd7f4b9943dd9bed64d5e, type: 3}
+  - {fileID: 8341523908714436422, guid: fa818e5696b4a3d44895f64687e528bb, type: 3}
+  - {fileID: 8341523908714436422, guid: 35e22956af38cc44b9c2236ffb8d1569, type: 3}
   leftBounds: {fileID: 0}
   rightBounds: {fileID: 0}
   minSpawnTime: 1
