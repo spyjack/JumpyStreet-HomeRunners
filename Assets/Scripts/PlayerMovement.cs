@@ -142,8 +142,20 @@ public class PlayerMovement : MonoBehaviour
 
     void MoveHorizontal(Vector3 _dir)
     {
+        bool _inBounds = false;
+        if (_dir.x > 0)
+        {
+            _inBounds = this.transform.position.x + _dir.x < worldGenerator.GetWorldWidth / 2 + (_dir.x * -1);
+        }
+        else if (_dir.x < 0)
+        {
+            _inBounds = this.transform.position.x + _dir.x > -worldGenerator.GetWorldWidth / 2 + (_dir.x * -1);
+        }
+        
+
+
         int colCheck = CheckCollision(_dir);
-        if (colCheck == 0 && this.transform.position.x + _dir.x < (worldGenerator.GetWorldWidth / 2 + (_dir.x * -1)))
+        if (colCheck == 0 && _inBounds)
         {
             MoveCharacter(_dir);
             this.transform.position = new Vector3(transform.position.x, TerrainHeight(_dir).y, transform.position.z);
@@ -153,7 +165,7 @@ public class PlayerMovement : MonoBehaviour
             MoveCharacter(_dir);
             transform.position = playerSeat.position;
         }
-        else if (colCheck != 1 && this.transform.position.x + _dir.x < (worldGenerator.GetWorldWidth / 2 + (_dir.x * -1)))
+        else if (colCheck != 1 && _inBounds)
         {
             MoveCharacter(_dir);
             this.transform.position = new Vector3(transform.position.x, TerrainHeight(_dir).y, transform.position.z);
