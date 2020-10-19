@@ -578,8 +578,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: 0}
+  m_AnchoredPosition: {x: -4.299988, y: 0}
+  m_SizeDelta: {x: -11.457825, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &196205395
 GameObject:
@@ -1775,8 +1775,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2532ffaac3eda4e98cfca2dd2107b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuMusicVolume: {fileID: 1663056869}
-  mainMenuMusic: {fileID: 358834997}
+  musicVolume: {fileID: 1663056869}
+  musicSound: {fileID: 358834997}
   buttonSoundVolume: {fileID: 1853222629}
   buttonSound: {fileID: 742189642}
   sfxSoundVolume: {fileID: 1184711175}
@@ -6003,8 +6003,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: 0}
+  m_AnchoredPosition: {x: -4.299988, y: 0}
+  m_SizeDelta: {x: -11.457825, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1979611131
 GameObject:
@@ -6229,8 +6229,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -20, y: 0}
+  m_AnchoredPosition: {x: -4.299988, y: 0}
+  m_SizeDelta: {x: -11.457825, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2125035258
 GameObject:

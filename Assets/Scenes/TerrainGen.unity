@@ -314,7 +314,7 @@ GameObject:
   - component: {fileID: 18210607}
   - component: {fileID: 18210606}
   m_Layer: 5
-  m_Name: Text
+  m_Name: titleText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,6 +589,7 @@ RectTransform:
   m_Children:
   - {fileID: 1884316261}
   - {fileID: 2090517569}
+  - {fileID: 867886722}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -609,7 +610,7 @@ GameObject:
   - component: {fileID: 96158131}
   - component: {fileID: 96158130}
   m_Layer: 5
-  m_Name: currentScore
+  m_Name: currentPauseScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2028,6 +2029,101 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0.016579323, b: 0.9811321, a: 1}
   m_EffectDistance: {x: 2.5, y: -1.5}
   m_UseGraphicAlpha: 1
+--- !u!1 &867886721
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 867886722}
+  - component: {fileID: 867886724}
+  - component: {fileID: 867886723}
+  - component: {fileID: 867886725}
+  m_Layer: 5
+  m_Name: scoreScreenText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &867886722
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867886721}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 51813501}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 731.19, y: 478.65}
+  m_SizeDelta: {x: 457.61096, y: 122.69852}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &867886723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867886721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 95aefa7ce64f5de4ab1548a24d6d1022, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Score: 0'
+--- !u!222 &867886724
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867886721}
+  m_CullTransparentMesh: 0
+--- !u!114 &867886725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867886721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0.48477912, b: 1, a: 1}
+  m_EffectDistance: {x: 3.17, y: -2.47}
+  m_UseGraphicAlpha: 1
 --- !u!1 &876852980
 GameObject:
   m_ObjectHideFlags: 0
@@ -2602,8 +2698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2532ffaac3eda4e98cfca2dd2107b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuMusicVolume: {fileID: 2017020812}
-  mainMenuMusic: {fileID: 1422995132}
+  musicVolume: {fileID: 2017020812}
+  musicSound: {fileID: 1422995132}
   buttonSoundVolume: {fileID: 1897420355}
   buttonSound: {fileID: 2034136514}
   sfxSoundVolume: {fileID: 1354793634}
@@ -5415,7 +5511,7 @@ GameObject:
   - component: {fileID: 2130277154}
   - component: {fileID: 2130277153}
   m_Layer: 5
-  m_Name: score
+  m_Name: scoreDeathText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
