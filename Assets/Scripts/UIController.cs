@@ -11,6 +11,11 @@ public class UIController : MonoBehaviour
     public GameObject pauseMenu;
     public GameObject settingsMenu;
 
+    public AudioSource sfxAudio;
+    public AudioSource gameAudio;
+
+    public static bool pauseMenuIsOn = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +36,11 @@ public class UIController : MonoBehaviour
 
     public void OnStartButtonClick()
     {
-        SceneManager.LoadScene("Level1");
+        Time.timeScale = 1;
+        SceneManager.LoadScene("TerrainGen");
+        sfxAudio.Play();
+        gameAudio.Play();
+        pauseMenuIsOn = false;
     }
 
     public void OnPauseButtonClick()
@@ -61,6 +70,13 @@ public class UIController : MonoBehaviour
         settingsMenu.SetActive(true);
     }
 
+    public void OnQuitToMenuButtonClick()
+    {
+        SceneManager.LoadScene("MainMenu");
+        Time.timeScale = 1;
+        pauseMenuIsOn = false;
+    }
+
     public void OnQuitButtonClick()
     {
         print("Quitting");
@@ -70,13 +86,19 @@ public class UIController : MonoBehaviour
     void PauseGame()
     {
         pauseMenu.SetActive(true);
-        Time.timeScale = 0f;    
+        Time.timeScale = 0f;
+        sfxAudio.Pause();
+        gameAudio.Pause();
+        pauseMenuIsOn = true;
     }
 
     public void onResumeButtonClick()
     {
         pauseMenu.SetActive(false);
-        Time.timeScale = 1f;        
+        Time.timeScale = 1f;
+        sfxAudio.Play();
+        gameAudio.Play();
+        pauseMenuIsOn = false;
     }
 
 

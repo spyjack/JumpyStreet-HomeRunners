@@ -55,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         //Would need two versions, one for forward movement and one for sideways movement.
         if (!isDead)
         {
-            if (Input.GetAxisRaw("Vertical") > 0.1f && !isHopping)
+            if (Input.GetAxisRaw("Vertical") > 0.1f && !isHopping && UIController.pauseMenuIsOn == false)
             {
                 int colCheck = CheckCollision(Vector3.forward);
                 if (colCheck == 0)
@@ -86,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
                     }
                 }
             }
-            else if (Input.GetAxisRaw("Vertical") < -0.1f && !isHopping && moveBacks < moveBacksMax)
+            else if (Input.GetAxisRaw("Vertical") < -0.1f && !isHopping && moveBacks < moveBacksMax && UIController.pauseMenuIsOn == false)
             {
                 int colCheck = CheckCollision(Vector3.back);
                 if (colCheck == 0)
@@ -117,11 +117,11 @@ public class PlayerMovement : MonoBehaviour
                     }
                 }
             }
-            else if (Input.GetAxisRaw("Horizontal") < -0.15f && !isHopping)
+            else if (Input.GetAxisRaw("Horizontal") < -0.15f && !isHopping && UIController.pauseMenuIsOn == false)
             {
                 MoveHorizontal(Vector3.left);
             }
-            else if (Input.GetAxisRaw("Horizontal") > 0.15f && !isHopping)
+            else if (Input.GetAxisRaw("Horizontal") > 0.15f && !isHopping && UIController.pauseMenuIsOn == false)
             {
                 MoveHorizontal(Vector3.right);   
             }
