@@ -79,14 +79,16 @@ public class PlayerMovement : MonoBehaviour
                 {
                     MoveCharacter(Vector3.zero);
                     transform.position = new Vector3(Mathf.Floor(transform.position.x) + 0.5f, TerrainHeight(Vector3.forward).y, transform.position.z);
-                    worldGenerator.PullWorld(new Vector3(0, 0, -1));
+   
                     if (colCheck == 3)
                     {
+                        worldGenerator.PullWorld(new Vector3(0, 0, -1));
                         KillPlayer(DeathType.Drowned);
                     }
                     else
                     {
-                        KillPlayer(DeathType.Flattened);
+                        worldGenerator.PullWorld(new Vector3(0, 0, -0.5f));
+                        KillPlayer(DeathType.Smooshed);
                     }
                 }
             }
@@ -110,14 +112,15 @@ public class PlayerMovement : MonoBehaviour
                 {
                     MoveCharacter(Vector3.zero);
                     this.transform.position = new Vector3(transform.position.x, TerrainHeight(Vector3.back).y, transform.position.z);
-                    worldGenerator.PullWorld(new Vector3(0, 0, 1));
                     if (colCheck == 3)
                     {
+                        worldGenerator.PullWorld(new Vector3(0, 0, 1));
                         KillPlayer(DeathType.Drowned);
                     }
                     else
                     {
-                        KillPlayer(DeathType.Flattened);
+                        worldGenerator.PullWorld(new Vector3(0, 0, 0.5f));
+                        KillPlayer(DeathType.Smooshed);
                     }
                 }
             }
@@ -160,17 +163,27 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "ObstacleMoving" && !isDead)
+        {
+            KillPlayer(DeathType.Flattened);
+        }
+    }
+
     void KillPlayer(DeathType _deathType)
     {
         isDead = true;
-        if(_deathType==DeathType.Drowned)
+        deathPanel.SetActive(true);
+        if (_deathType==DeathType.Drowned)
         {
             animator.SetTrigger("drowned");
-            deathPanel.SetActive(true);
+        }else if(_deathType == DeathType.Smooshed)
+        {
+            animator.SetTrigger("smooshed");
         }else
         {
             animator.SetTrigger("flatten");
-            deathPanel.SetActive(true);
         }
     }
 
@@ -248,6 +261,7 @@ public class PlayerMovement : MonoBehaviour
 public enum DeathType
 {
     Drowned,
-    Flattened
+    Flattened,
+    Smooshed
 }
 
