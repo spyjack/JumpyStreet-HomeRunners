@@ -19,6 +19,8 @@ public class WorldGenerationController : MonoBehaviour
     [SerializeField]
     private List<Transform> worldChunks = null;
 
+    private int[] pathEndsX;
+
     [SerializeField]
     private float clearDistance = 24;
 
@@ -52,6 +54,8 @@ public class WorldGenerationController : MonoBehaviour
     [SerializeField]
     private Transform spawnPoint = null;
 
+    bool playerSpawnChunk = false;
+
     private int chunkIndex = 0;
 
     private FlowingRowHandler prevRowFlowHandler = null;
@@ -76,12 +80,14 @@ public class WorldGenerationController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pathEndsX = new int[guaranteedPaths];
         if (focusTransform == null) { focusTransform = this.transform; }
         for(int i = 0; i<maxChunks;i++)
         {
+            if (i == 1) { playerSpawnChunk = true; } else { playerSpawnChunk = false; }
             InitializeWorld(guaranteedPaths);
         }
-        PullWorld(new Vector3(0, 0, -worldHeightMax));
+        PullWorld(new Vector3(0, 0, -worldHeightMax*2));
         GameObject.FindGameObjectWithTag("Player").transform.position = spawnPoint.position;
     }
 
@@ -131,7 +137,17 @@ public class WorldGenerationController : MonoBehaviour
 
         for (int i = 0; i < _paths; i++)
         {
-            CreatePath(4, (obstacleGrid.GetLength(1)-1) / Random.Range(1,8), 0);
+            if (playerSpawnChunk)
+            {
+                CreatePath(4, (obstacleGrid.GetLength(1) - 1) / 2, 0);
+            }
+            else if (pathEndsX == null || i > pathEndsX.Length-1)
+            {
+                CreatePath(4, (obstacleGrid.GetLength(1) - 1) / Random.Range(1, 8), 0);
+            }else
+            {
+                CreatePath(4, pathEndsX[i], 0);
+            }
         }
 
         Transform chunk = CreateChunk();
