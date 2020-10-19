@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isHopping)
         {
+            animator.SetTrigger("hop");
             if (hopTimer < hopDelay)
             {
                 hopTimer += Time.deltaTime;
@@ -69,6 +70,8 @@ public class PlayerMovement : MonoBehaviour
         isHopping = true;
         transform.position = (transform.position + difference);
     }
+
+    
 
     public void FinishHop()
     {
