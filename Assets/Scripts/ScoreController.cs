@@ -8,6 +8,7 @@ public class ScoreController : MonoBehaviour
 {
     int highScoreNumber = 0;
     string HighScore;
+    [SerializeField]
     int score = 0;
     string scoreText = "Assets/HighScoreHolder/ScoreKeeper";
     // Start is called before the first frame update

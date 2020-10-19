@@ -68,6 +68,11 @@ public class PlayerMovement : MonoBehaviour
                     MoveCharacter(Vector3.zero);
                     transform.position = new Vector3(Mathf.Floor(transform.position.x) + 0.5f, TerrainHeight(Vector3.forward).y, transform.position.z);
                     worldGenerator.PullWorld(new Vector3(0, 0, -1));
+
+                    if(moveBacks == 0)
+                    {
+                        this.GetComponent<ScoreController>().UpdateScore();
+                    }
                 }
                 else if (colCheck == 4)
                 {
@@ -148,7 +153,7 @@ public class PlayerMovement : MonoBehaviour
             MoveCharacter(_dir);
             transform.position = playerSeat.position;
         }
-        else if (colCheck != 1 && this.transform.position.x + _dir.x < (worldGenerator.GetWorldWidth / 2 - 1))
+        else if (colCheck != 1 && this.transform.position.x + _dir.x < (worldGenerator.GetWorldWidth / 2 + (_dir.x * -1)))
         {
             MoveCharacter(_dir);
             this.transform.position = new Vector3(transform.position.x, TerrainHeight(_dir).y, transform.position.z);
