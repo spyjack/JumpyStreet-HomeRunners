@@ -2559,6 +2559,55 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1082298547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1082298548}
+  - component: {fileID: 1082298549}
+  m_Layer: 0
+  m_Name: SoundController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1082298548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082298547}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 897.87573, y: 546.3676, z: -108.606415}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1082298549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1082298547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db2532ffaac3eda4e98cfca2dd2107b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainMenuMusicVolume: {fileID: 2017020812}
+  mainMenuMusic: {fileID: 1422995132}
+  buttonSoundVolume: {fileID: 1897420355}
+  buttonSound: {fileID: 2034136514}
+  sfxSoundVolume: {fileID: 1354793634}
+  sfxSound: {fileID: 20493187}
 --- !u!1 &1094541111
 GameObject:
   m_ObjectHideFlags: 0
@@ -4883,7 +4932,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2034136515}
   - component: {fileID: 2034136516}
-  - component: {fileID: 2034136517}
   - component: {fileID: 2034136514}
   m_Layer: 0
   m_Name: ButtonSounds
@@ -5017,24 +5065,6 @@ MonoBehaviour:
   myFX: {fileID: 2034136514}
   hoverFX: {fileID: 8300000, guid: 2952ba20a4492c743bd64d5574936719, type: 3}
   clickFX: {fileID: 8300000, guid: 5ea27de5a63f2c34791cbebc9eaba05c, type: 3}
---- !u!114 &2034136517
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2034136513}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db2532ffaac3eda4e98cfca2dd2107b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mainMenuMusicVolume: {fileID: 2017020812}
-  mainMenuMusic: {fileID: 1422995132}
-  buttonSoundVolume: {fileID: 1897420355}
-  buttonSound: {fileID: 2034136514}
-  sfxSoundVolume: {fileID: 1354793634}
-  sfxSound: {fileID: 20493187}
 --- !u!1 &2059476606
 GameObject:
   m_ObjectHideFlags: 0
@@ -5118,7 +5148,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2034136517}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: AudioSliderScript, Assembly-CSharp
         m_MethodName: OnSaveButtonClick
         m_Mode: 1
