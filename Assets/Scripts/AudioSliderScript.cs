@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class AudioSliderScript : MonoBehaviour
 {
     [Header("Main Menu Music")]
-    public Slider mainMenuMusicVolume;
-    public AudioSource mainMenuMusic;
+    public Slider musicVolume;
+    public AudioSource musicSound;
 
     [Header("Button Sounds")]
     public Slider buttonSoundVolume;
@@ -20,14 +20,14 @@ public class AudioSliderScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        mainMenuMusicVolume.value = PlayerPrefs.GetFloat("menuVolume", .25f);
+        musicVolume.value = PlayerPrefs.GetFloat("musicVolume", .25f);
         buttonSoundVolume.value = PlayerPrefs.GetFloat("buttonVolume", 1f);
         sfxSoundVolume.value = PlayerPrefs.GetFloat("sfxVolume", .5f);
     }
 
     public void OnSliderChange(float newValue)
     {
-        PlayerPrefs.SetFloat("menuVolume", newValue);
+        PlayerPrefs.SetFloat("musicVolume", newValue);
         PlayerPrefs.SetFloat("buttonVolume", newValue);
         PlayerPrefs.SetFloat("sfxVolume", newValue);
     }
@@ -37,7 +37,7 @@ public class AudioSliderScript : MonoBehaviour
     { 
 
         //////////***** MAIN MENU *****//////////
-        mainMenuMusic.volume = mainMenuMusicVolume.value;
+        musicSound.volume = musicVolume.value;
 
         //////////***** ALL BUTTONS *****//////////
         buttonSound.volume = buttonSoundVolume.value;
@@ -48,7 +48,7 @@ public class AudioSliderScript : MonoBehaviour
 
     public void OnSaveButtonClick()
     {
-        PlayerPrefs.SetFloat("menuVolume", mainMenuMusicVolume.value);
+        PlayerPrefs.SetFloat("menuVolume", musicVolume.value);
         Debug.Log("Saved menu music volume..");
 
         PlayerPrefs.SetFloat("buttonVolume", buttonSoundVolume.value);
