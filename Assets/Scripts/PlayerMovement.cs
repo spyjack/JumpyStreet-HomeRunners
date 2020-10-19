@@ -10,6 +10,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isHopping;
 
+    public GameObject deathPanel;
+
     [SerializeField]
     float hopDelay = 0;
     float hopTimer = 0;
@@ -31,6 +33,8 @@ public class PlayerMovement : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         audioSource = GetComponent<AudioSource>();
+
+        deathPanel.SetActive(false);
     }
 
     private void Update()
@@ -55,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
         //Would need two versions, one for forward movement and one for sideways movement.
         if (!isDead)
         {
-            if (Input.GetAxisRaw("Vertical") > 0.1f && !isHopping && UIController.pauseMenuIsOn == false)
+            if (Input.GetAxisRaw("Vertical") > 0.1f && !isHopping && GameUIController.pauseMenuIsOn == false)
             {
                 int colCheck = CheckCollision(Vector3.forward);
                 if (colCheck == 0)
@@ -86,7 +90,7 @@ public class PlayerMovement : MonoBehaviour
                     }
                 }
             }
-            else if (Input.GetAxisRaw("Vertical") < -0.1f && !isHopping && moveBacks < moveBacksMax && UIController.pauseMenuIsOn == false)
+            else if (Input.GetAxisRaw("Vertical") < -0.1f && !isHopping && moveBacks < moveBacksMax && GameUIController.pauseMenuIsOn == false)
             {
                 int colCheck = CheckCollision(Vector3.back);
                 if (colCheck == 0)
@@ -117,11 +121,11 @@ public class PlayerMovement : MonoBehaviour
                     }
                 }
             }
-            else if (Input.GetAxisRaw("Horizontal") < -0.15f && !isHopping && UIController.pauseMenuIsOn == false)
+            else if (Input.GetAxisRaw("Horizontal") < -0.15f && !isHopping && GameUIController.pauseMenuIsOn == false)
             {
                 MoveHorizontal(Vector3.left);
             }
-            else if (Input.GetAxisRaw("Horizontal") > 0.15f && !isHopping && UIController.pauseMenuIsOn == false)
+            else if (Input.GetAxisRaw("Horizontal") > 0.15f && !isHopping && GameUIController.pauseMenuIsOn == false)
             {
                 MoveHorizontal(Vector3.right);   
             }
@@ -162,9 +166,11 @@ public class PlayerMovement : MonoBehaviour
         if(_deathType==DeathType.Drowned)
         {
             animator.SetTrigger("drowned");
+            deathPanel.SetActive(true);
         }else
         {
             animator.SetTrigger("flatten");
+            deathPanel.SetActive(true);
         }
     }
 
