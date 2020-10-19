@@ -161,10 +161,10 @@ public class PlayerMovement : MonoBehaviour
         isDead = true;
         if(_deathType==DeathType.Drowned)
         {
-            //Play drowning animation
+            animator.SetTrigger("drowned");
         }else
         {
-            //Play smooshed
+            animator.SetTrigger("flatten");
         }
     }
 
@@ -181,10 +181,12 @@ public class PlayerMovement : MonoBehaviour
             if(hit.transform.tag == "ObstacleBlocking")
             {
                 return _colReport = 1;
-            }else if (hit.transform.tag == "ObstacleMoving")
+            }
+            else if (hit.transform.tag == "ObstacleMoving")
             {
                 return _colReport = 2;
-            }else if (hit.transform.tag == "Water")
+            }
+            else if (hit.transform.tag == "Water")
             {
                 return _colReport = 3;
             }
