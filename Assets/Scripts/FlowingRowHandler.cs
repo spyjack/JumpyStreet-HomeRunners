@@ -65,6 +65,7 @@ public class FlowingRowHandler : MonoBehaviour
             newObject.transform.position = leftBounds.position;
             newObject.deathPoint = rightBounds;
             newObject.speed = Random.Range(minSpeed, maxSpeed);
+            //newObject.transform.Rotate(new Vector3(0, 1, 0), 180);
         }
         else if (_dir == 1)
         {

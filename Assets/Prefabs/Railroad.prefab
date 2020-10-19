@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1142477531}
   - component: {fileID: 1142477530}
   - component: {fileID: 1142477529}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 1329726331}
   - component: {fileID: 1329726330}
   - component: {fileID: 1329726329}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 150174153664919218}
   - component: {fileID: 150174153664919219}
   - component: {fileID: 150174153664919216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Railroad
   m_TagString: Terrain
   m_Icon: {fileID: 0}

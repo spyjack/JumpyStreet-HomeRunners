@@ -19,6 +19,8 @@ public class WorldGenerationController : MonoBehaviour
     [SerializeField]
     private List<Transform> worldChunks = null;
 
+    private int[] pathEndsX;
+
     [SerializeField]
     private float clearDistance = 24;
 
@@ -52,6 +54,8 @@ public class WorldGenerationController : MonoBehaviour
     [SerializeField]
     private Transform spawnPoint = null;
 
+    bool playerSpawnChunk = false;
+
     private int chunkIndex = 0;
 
     private FlowingRowHandler prevRowFlowHandler = null;
@@ -67,16 +71,24 @@ public class WorldGenerationController : MonoBehaviour
         }
     }
 
+    public float GetWorldWidth
+    {
+        get { return (float)worldWidthMax; }
+    }
+
     public bool debugMode = false;
     // Start is called before the first frame update
     void Start()
     {
+        pathEndsX = new int[guaranteedPaths];
         if (focusTransform == null) { focusTransform = this.transform; }
         for(int i = 0; i<maxChunks;i++)
         {
+            if (i == 1) { playerSpawnChunk = true; } else { playerSpawnChunk = false; }
             InitializeWorld(guaranteedPaths);
         }
-        PullWorld(new Vector3(0, 0, -worldHeightMax));
+        PullWorld(new Vector3(0, 0, -worldHeightMax*2));
+        GameObject.FindGameObjectWithTag("Player").transform.position = spawnPoint.position;
     }
 
     // Update is called once per frame
@@ -106,13 +118,17 @@ public class WorldGenerationController : MonoBehaviour
             worldChunks[i].position += _direction;
             if(worldChunks[i].position.z <= focusTransform.position.z - (clearDistance + worldHeightMax))
             {
-                InitializeWorld(guaranteedPaths);
+                Transform newChunk = InitializeWorld(guaranteedPaths);
+                if(worldChunks[0] != newChunk)
+                {
+                    newChunk.position += _direction;
+                }
             }
         }
     }
 
     //Physically generates the world based on the 2 arrays, the terrain array and the obstacles array.
-    void InitializeWorld(int _paths)
+    Transform InitializeWorld(int _paths)
     {
         worldRows = new RowType[worldHeightMax];
         obstacleGrid = new int[worldHeightMax, worldWidthMax];
@@ -121,13 +137,26 @@ public class WorldGenerationController : MonoBehaviour
 
         for (int i = 0; i < _paths; i++)
         {
-            CreatePath(4, (obstacleGrid.GetLength(1)-1) / Random.Range(1,8), 0);
+            if (playerSpawnChunk)
+            {
+                CreatePath(4, (obstacleGrid.GetLength(1) - 1) / 2, 0);
+            }
+            else if (pathEndsX == null || i > pathEndsX.Length-1)
+            {
+                CreatePath(4, (obstacleGrid.GetLength(1) - 1) / Random.Range(1, 8), 0);
+            }else
+            {
+                CreatePath(4, pathEndsX[i], 0);
+            }
         }
 
         Transform chunk = CreateChunk();
+        Debug.Log("Creating New Chunk at " + chunk.position);
         PopulateRows(chunk);
         chunk.position = new Vector3(chunk.position.x, chunk.position.y, GetChunkZ(chunk));
         SetSpawnPoint(chunk);
+
+        return chunk;
     }
 
     //Fills out the row and obstacle arrays, doesn't generate anything in the scene.
@@ -178,7 +207,7 @@ public class WorldGenerationController : MonoBehaviour
             {
                 //Determine river direction
                 //Configure logs to spawn
-                FlowingRowHandler newFlowingRow = Instantiate(waterPrefabs[1], _chunk.position, Quaternion.identity, _chunk).GetComponent<FlowingRowHandler>();
+                FlowingRowHandler newFlowingRow = Instantiate(waterPrefabs[1], _chunk.position, Quaternion.Euler(0,0,0), _chunk).GetComponent<FlowingRowHandler>();
                 newFlowingRow.name = newFlowingRow.name + "_inst_" + r;
                 newFlowingRow.transform.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 1, _chunk.position.y, _chunk.position.z + r);
 
@@ -271,19 +300,19 @@ public class WorldGenerationController : MonoBehaviour
     //Creates "drunken walkers" that stumble through the obstacle grid array, and clear any objects they cross so a path is guaranteed.
     void CreatePath(int _vChance, int _gridX, int _gridY)
     {
-        print("Walker starting at: " + _gridX + ", " + _gridY);
+        //print("Walker starting at: " + _gridX + ", " + _gridY);
         ClearObstacle(_gridX, _gridY);
         while (_gridY < obstacleGrid.GetLength(0)-1)
         {
             if (Random.Range(0,11) < _vChance)
             {
                 int randWChance = Random.Range(0, 2);
-                if (_gridX < obstacleGrid.GetLength(1)-1 && randWChance == 0)
+                if (_gridX < obstacleGrid.GetLength(1)-2 && randWChance == 0)
                 {
                     _gridX++;
                     ClearObstacle(_gridX, _gridY);
                 }
-                else if (_gridX >= 1 && obstacleGrid.GetLength(1) > 1 && randWChance == 1)
+                else if (_gridX >= 2 && obstacleGrid.GetLength(1) > 1 && randWChance == 1)
                 {
                     _gridX--;
                     ClearObstacle(_gridX, _gridY);
@@ -305,7 +334,7 @@ public class WorldGenerationController : MonoBehaviour
         if (obstacleGrid[_y, _x] == 1 && (worldRows[_y] == RowType.grass || worldRows[_y] == RowType.forest))
         {
             obstacleGrid[_y, _x] = 0;
-            print("Obstacle found at " + _x + ", " + _y + ". Set to " + obstacleGrid[_y, _x]);
+            //print("Obstacle found at " + _x + ", " + _y + ". Set to " + obstacleGrid[_y, _x]);
         }else if (worldRows[_y] == RowType.riverPads && obstacleGrid[_y, _x] == 0)
         {
             obstacleGrid[_y, _x] = 1;
