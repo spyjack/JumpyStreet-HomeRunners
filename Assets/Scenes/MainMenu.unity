@@ -3208,7 +3208,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &992777695
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4991,10 +4991,12 @@ MonoBehaviour:
 
     -------------------------------
 
-    Level Generator
+    Animations
 
-    Player
-    Programming
+    Level
+    Generator
+
+    Player Programming
 
 
 
@@ -5489,10 +5491,12 @@ MonoBehaviour:
 
     -------------------------------
 
-    UI Programming
+    Score System
 
-    Player
+    UI
     Programming
+
+    Player Programming
 
 '
 --- !u!222 &1874122321
@@ -6306,10 +6310,10 @@ MonoBehaviour:
 
     -------------------------------
 
-    Sounds
+    UI Design
 
-    UI
-    Design
+    Sounds
+    / Animations
 
     Player Programming
 
