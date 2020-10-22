@@ -719,6 +719,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: scoreTextField
+      value: 
+      objectReference: {fileID: 867886723}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: scoreDeathDisplay
+      value: 
+      objectReference: {fileID: 2130277153}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: scoreDisplay
+      value: 
+      objectReference: {fileID: 867886723}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
 --- !u!1 &174180462
@@ -2041,10 +2053,10 @@ RectTransform:
   m_Father: {fileID: 51813501}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 731.19, y: 478.65}
-  m_SizeDelta: {x: 457.61096, y: 122.69852}
+  m_AnchorMin: {x: 0.6084395, y: 0.8453551}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -34, y: -0.5}
+  m_SizeDelta: {x: 57.610962, y: -4.301483}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &867886723
 MonoBehaviour:
@@ -2073,7 +2085,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 5
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

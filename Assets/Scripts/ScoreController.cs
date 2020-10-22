@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using System.IO;
 using System;
 
@@ -10,6 +11,10 @@ public class ScoreController : MonoBehaviour
     string HighScore;
     [SerializeField]
     int score = 0;
+    [SerializeField]
+    Text scoreDisplay = null;
+    [SerializeField]
+    Text scoreDeathDisplay = null;
     string scoreText = "Assets/HighScoreHolder/ScoreKeeper";
     // Start is called before the first frame update
     void Start()
@@ -28,6 +33,8 @@ public class ScoreController : MonoBehaviour
     {
         // Increasing Score 
         score++;
+        scoreDisplay.text = "Score: " + score;
+        scoreDeathDisplay.text = score.ToString();
         // Check High Score
         if (score > highScoreNumber)
         {
