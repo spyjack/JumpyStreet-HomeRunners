@@ -731,6 +731,26 @@ PrefabInstance:
       propertyPath: scoreDisplay
       value: 
       objectReference: {fileID: 867886723}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: scorePauseDisplay
+      value: 
+      objectReference: {fileID: 96158130}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: highScoreDisplay
+      value: 
+      objectReference: {fileID: 1094541113}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: highScoreText
+      value: 
+      objectReference: {fileID: 1094541113}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: gameAudio
+      value: 
+      objectReference: {fileID: 1422995132}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: sfxAudio
+      value: 
+      objectReference: {fileID: 20493187}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
 --- !u!1 &174180462
@@ -993,7 +1013,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 730241613}
         m_TargetAssemblyTypeName: GameUIController, Assembly-CSharp
-        m_MethodName: OnStartButtonClick
+        m_MethodName: OnRestartButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1564,7 +1584,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 730241613}
         m_TargetAssemblyTypeName: GameUIController, Assembly-CSharp
-        m_MethodName: OnStartButtonClick
+        m_MethodName: OnRestartButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

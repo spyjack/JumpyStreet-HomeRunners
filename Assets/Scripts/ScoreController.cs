@@ -4,23 +4,32 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 using System;
+using UnityEngine.SceneManagement;
 
 public class ScoreController : MonoBehaviour
 {
-    int highScoreNumber = 0;
-    string HighScore;
+    public static int highScore;
     [SerializeField]
-    int score = 0;
+    Text highScoreText = null;
+    [SerializeField]
+    public static int score = 0;
     [SerializeField]
     Text scoreDisplay = null;
     [SerializeField]
     Text scoreDeathDisplay = null;
-    string scoreText = "Assets/HighScoreHolder/ScoreKeeper";
+    [SerializeField]
+    Text scorePauseDisplay = null;
+
+    private void Awake()
+    {
+        highScore = PlayerPrefs.GetInt("highScore");
+        highScoreText.text = highScore.ToString();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        StreamReader Reader = new StreamReader(scoreText);
-        highScoreNumber = Convert.ToInt32(Reader.ReadToEnd());
+        
     }
 
     // Update is called once per frame
@@ -35,14 +44,14 @@ public class ScoreController : MonoBehaviour
         score++;
         scoreDisplay.text = "Score: " + score;
         scoreDeathDisplay.text = score.ToString();
-        // Check High Score
-        if (score > highScoreNumber)
-        {
-            
-            StreamWriter Writer = new StreamWriter(scoreText, true);
-            Writer.WriteLine(score);
+        scorePauseDisplay.text = score.ToString();
+    }
 
+    public void ChangeHighScore(int newValue)
+    {
+        if (score > highScore)
+        {
+            PlayerPrefs.SetInt("highScore", newValue);
         }
-        
     }
 }
