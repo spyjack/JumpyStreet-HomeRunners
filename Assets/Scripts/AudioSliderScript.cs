@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class AudioSliderScript : MonoBehaviour
 {
-    [Header("Main Menu Music")]
+    [Header("Game Music")]
     public Slider musicVolume;
     public AudioSource musicSound;
 
@@ -48,7 +48,7 @@ public class AudioSliderScript : MonoBehaviour
 
     public void OnSaveButtonClick()
     {
-        PlayerPrefs.SetFloat("menuVolume", musicVolume.value);
+        PlayerPrefs.SetFloat("musicVolume", musicVolume.value);
         Debug.Log("Saved menu music volume..");
 
         PlayerPrefs.SetFloat("buttonVolume", buttonSoundVolume.value);
