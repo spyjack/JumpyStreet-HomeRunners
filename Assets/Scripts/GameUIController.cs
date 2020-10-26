@@ -13,11 +13,6 @@ public class GameUIController : MonoBehaviour
 
     public static bool pauseMenuIsOn = false;
 
-    private void Awake()
-    {
-        ScoreController.highScore = PlayerPrefs.GetInt("highScore");
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -40,7 +35,6 @@ public class GameUIController : MonoBehaviour
         sfxAudio.Play();
         gameAudio.Play();
         pauseMenuIsOn = false;
-        PlayerPrefs.SetInt("highScore", ScoreController.score);
     }
 
     public void OnRestartButtonClick()
@@ -50,7 +44,6 @@ public class GameUIController : MonoBehaviour
         sfxAudio.Play();
         gameAudio.Play();
         pauseMenuIsOn = false;
-        PlayerPrefs.SetInt("highScore", ScoreController.score);
     }
 
     public void OnQuitToMenuButtonClick()
@@ -58,7 +51,6 @@ public class GameUIController : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
         Time.timeScale = 1;
         pauseMenuIsOn = false;
-        PlayerPrefs.SetInt("highScore", ScoreController.score);
     }
 
     public void OnQuitButtonClick()
@@ -66,7 +58,6 @@ public class GameUIController : MonoBehaviour
         print("Quitting");
         Application.Quit();
         pauseMenuIsOn = false;
-        PlayerPrefs.SetInt("highScore", ScoreController.score);
     }
 
     public void OnPauseButtonClick()

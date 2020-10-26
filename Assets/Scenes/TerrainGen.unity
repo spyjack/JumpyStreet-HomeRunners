@@ -735,6 +735,22 @@ PrefabInstance:
       propertyPath: scorePauseDisplay
       value: 
       objectReference: {fileID: 96158130}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: screenScore
+      value: 
+      objectReference: {fileID: 867886723}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: pauseScore
+      value: 
+      objectReference: {fileID: 96158130}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: deathScore
+      value: 
+      objectReference: {fileID: 2130277153}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: highScore
+      value: 
+      objectReference: {fileID: 1094541113}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
 --- !u!1 &174180462
