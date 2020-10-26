@@ -189,7 +189,7 @@ public class WorldGenerationController : MonoBehaviour
         for (int r = 0; r < worldRows.Length; r++)
         {
             Transform lane = GameObject.Instantiate(GetGroundObject(worldRows[r]), new Vector3(0,0,r), Quaternion.identity, _chunk);
-            lane.localScale = new Vector3(worldWidthMax*1.5f, lane.localScale.y, 1);
+            lane.localScale = new Vector3(worldWidthMax*2f, lane.localScale.y, 1);
 
             for (int c = 0; c < obstacleGrid.GetLength(1); c++)
             {

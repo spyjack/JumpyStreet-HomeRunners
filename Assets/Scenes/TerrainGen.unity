@@ -720,7 +720,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
-      propertyPath: scoreTextField
+      propertyPath: highScoreText
+      value: 
+      objectReference: {fileID: 1094541113}
+    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
+      propertyPath: scoreDisplay
       value: 
       objectReference: {fileID: 867886723}
     - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
@@ -728,29 +732,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2130277153}
     - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
-      propertyPath: scoreDisplay
-      value: 
-      objectReference: {fileID: 867886723}
-    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
       propertyPath: scorePauseDisplay
       value: 
       objectReference: {fileID: 96158130}
-    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
-      propertyPath: highScoreDisplay
-      value: 
-      objectReference: {fileID: 1094541113}
-    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
-      propertyPath: highScoreText
-      value: 
-      objectReference: {fileID: 1094541113}
-    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
-      propertyPath: gameAudio
-      value: 
-      objectReference: {fileID: 1422995132}
-    - target: {fileID: 6093229759840554494, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
-      propertyPath: sfxAudio
-      value: 
-      objectReference: {fileID: 20493187}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b63b8c79416edb847a9a78ada2386b3e, type: 3}
 --- !u!1 &174180462
@@ -1740,8 +1724,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Color: {r: 0.9339623, g: 0.9215684, b: 0.8414472, a: 1}
+  m_Intensity: 1.65
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
