@@ -217,9 +217,9 @@ public class WorldGenerationController : MonoBehaviour
                     riverDir = prevRowFlowHandler.Direction;
                 }
                 Transform leftBounds = new GameObject("Left Boundry").transform;
-                leftBounds.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 1, _chunk.position.y, _chunk.position.z + r);
+                leftBounds.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 10, _chunk.position.y, _chunk.position.z + r);
                 Transform rightBounds = new GameObject("Right Boundry").transform;
-                rightBounds.position = new Vector3(_chunk.position.x - (float)worldWidthMax / 2 - 1, _chunk.position.y, _chunk.position.z + r);
+                rightBounds.position = new Vector3(_chunk.position.x - (float)worldWidthMax / 2 - 10, _chunk.position.y, _chunk.position.z + r);
 
                 rightBounds.parent = newFlowingRow.transform; leftBounds.parent = newFlowingRow.transform;
 
@@ -249,9 +249,9 @@ public class WorldGenerationController : MonoBehaviour
                     roadDir = prevRowFlowHandler.Direction;
                 }
                 Transform leftBounds = new GameObject("Left Boundry").transform;
-                leftBounds.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 1, _chunk.position.y+0.65f, _chunk.position.z + r);
+                leftBounds.position = new Vector3(_chunk.position.x + (float)worldWidthMax / 2 + 10, _chunk.position.y+0.65f, _chunk.position.z + r);
                 Transform rightBounds = new GameObject("Right Boundry").transform;
-                rightBounds.position = new Vector3(_chunk.position.x - (float)worldWidthMax / 2 - 1, _chunk.position.y+0.65f, _chunk.position.z + r);
+                rightBounds.position = new Vector3(_chunk.position.x - (float)worldWidthMax / 2 - 10, _chunk.position.y+0.65f, _chunk.position.z + r);
 
                 rightBounds.parent = newFlowingRow.transform; leftBounds.parent = newFlowingRow.transform;
 
